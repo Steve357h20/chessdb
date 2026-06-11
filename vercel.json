@@ -1,0 +1,19 @@
+{
+  "builds": [
+    {
+      "src": "frontend/package.json",
+      "use": "@vercel/static-build",
+      "config": {
+        "outputDirectory": "dist"
+      }
+    }
+  ],
+  "routes": [
+    { "src": "/api/(.*)", "dest": "http://$BACKEND_HOST/api/$1" },
+    { "src": "/admin/(.*)", "dest": "http://$BACKEND_HOST/admin/$1" },
+    { "src": "/apidocs/(.*)", "dest": "http://$BACKEND_HOST/apidocs/$1" },
+    { "src": "/flasgger/(.*)", "dest": "http://$BACKEND_HOST/flasgger/$1" },
+    { "handle": "filesystem" },
+    { "src": "/(.*)", "dest": "/frontend/$1" }
+  ]
+}

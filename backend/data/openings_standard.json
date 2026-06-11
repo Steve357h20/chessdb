@@ -1,0 +1,4268 @@
+{
+  "A00": {
+    "name": "Uncommon Opening",
+    "variation": "",
+    "moves": [
+      "b4"
+    ],
+    "description": "Also known as the Orangutan"
+  },
+  "A01": {
+    "name": "Nimzovich-Larsen Attack",
+    "variation": "",
+    "moves": [
+      "b3"
+    ],
+    "description": "Flexible flank opening with 1.b3"
+  },
+  "A02": {
+    "name": "Bird's Opening",
+    "variation": "",
+    "moves": [
+      "f4"
+    ],
+    "description": "Unconventional opening with 1.f4"
+  },
+  "A03": {
+    "name": "Bird's Opening",
+    "variation": "Dutch",
+    "moves": [
+      "f4",
+      "d5"
+    ],
+    "description": "Bird's with ...d5"
+  },
+  "A04": {
+    "name": "Reti Opening",
+    "variation": "",
+    "moves": [
+      "Nf3"
+    ],
+    "description": "Hypermodern with 1.Nf3"
+  },
+  "A07": {
+    "name": "King's Indian Attack",
+    "variation": "",
+    "moves": [
+      "Nf3",
+      "d5",
+      "g3"
+    ],
+    "description": "Reversed KID"
+  },
+  "A10": {
+    "name": "English Opening",
+    "variation": "",
+    "moves": [
+      "c4"
+    ],
+    "description": "Flexible flank opening with 1.c4"
+  },
+  "A20": {
+    "name": "English Opening",
+    "variation": "",
+    "moves": [
+      "c4",
+      "e5"
+    ],
+    "description": "English with 1...e5"
+  },
+  "A22": {
+    "name": "English Opening",
+    "variation": "Four Knights",
+    "moves": [
+      "c4",
+      "e5",
+      "Nc3",
+      "Nf6",
+      "Nf3",
+      "Nc6"
+    ],
+    "description": "English Four Knights"
+  },
+  "A30": {
+    "name": "English, Symmetrical",
+    "variation": "Symmetrical",
+    "moves": [
+      "c4",
+      "c5"
+    ],
+    "description": "Symmetrical English"
+  },
+  "A40": {
+    "name": "Queen's Pawn Opening",
+    "variation": "",
+    "moves": [
+      "d4",
+      "e6"
+    ],
+    "description": "Flexible response to 1.d4"
+  },
+  "A43": {
+    "name": "Old Benoni",
+    "variation": "",
+    "moves": [
+      "d4",
+      "c5"
+    ],
+    "description": "Early ...c5 against d4"
+  },
+  "A45": {
+    "name": "Queen's Pawn Game",
+    "variation": "",
+    "moves": [
+      "d4",
+      "Nf6"
+    ],
+    "description": "Queen's Pawn with ...Nf6"
+  },
+  "A47": {
+    "name": "Queen's Indian Defense",
+    "variation": "",
+    "moves": [
+      "d4",
+      "Nf6",
+      "Nf3",
+      "b6"
+    ],
+    "description": "QID with ...b6"
+  },
+  "A50": {
+    "name": "Queen's Pawn Game",
+    "variation": "",
+    "moves": [
+      "d4",
+      "Nf6",
+      "c4"
+    ],
+    "description": "Queen's Pawn with c4"
+  },
+  "A51": {
+    "name": "Budapest Gambit",
+    "variation": "",
+    "moves": [
+      "d4",
+      "Nf6",
+      "c4",
+      "e5"
+    ],
+    "description": "Budapest counter-gambit"
+  },
+  "A52": {
+    "name": "Budapest Gambit",
+    "variation": "",
+    "moves": [
+      "d4",
+      "Nf6",
+      "c4",
+      "e5",
+      "dxe5",
+      "Ng4"
+    ],
+    "description": "Budapest main line"
+  },
+  "A56": {
+    "name": "Benoni Defense",
+    "variation": "",
+    "moves": [
+      "d4",
+      "Nf6",
+      "c4",
+      "c5"
+    ],
+    "description": "Benoni Defense"
+  },
+  "A57": {
+    "name": "Benko Gambit",
+    "variation": "",
+    "moves": [
+      "d4",
+      "Nf6",
+      "c4",
+      "c5",
+      "d5",
+      "b5"
+    ],
+    "description": "Benko/Volga Gambit"
+  },
+  "A60": {
+    "name": "Benoni Defense",
+    "variation": "Modern Benoni",
+    "moves": [
+      "d4",
+      "Nf6",
+      "c4",
+      "c5",
+      "d5",
+      "e6"
+    ],
+    "description": "Modern Benoni"
+  },
+  "A61": {
+    "name": "Benoni Defense",
+    "variation": "Modern Benoni",
+    "moves": [
+      "d4",
+      "Nf6",
+      "c4",
+      "c5",
+      "d5",
+      "e6",
+      "Nc3",
+      "exd5",
+      "cxd5",
+      "d6"
+    ],
+    "description": "Modern Benoni main"
+  },
+  "A68": {
+    "name": "Benoni, Four Pawns Attack",
+    "variation": "Four Pawns Attack",
+    "moves": [
+      "d4",
+      "Nf6",
+      "c4",
+      "c5",
+      "d5",
+      "e6",
+      "Nc3",
+      "exd5",
+      "cxd5",
+      "d6",
+      "e4",
+      "g6",
+      "f4",
+      "Bg7",
+      "Nf3",
+      "O-O"
+    ],
+    "description": "Four Pawns Attack"
+  },
+  "A80": {
+    "name": "Dutch Defense",
+    "variation": "",
+    "moves": [
+      "d4",
+      "f5"
+    ],
+    "description": "Aggressive defense with 1...f5"
+  },
+  "A87": {
+    "name": "Dutch, Leningrad, Main Variation",
+    "variation": "Leningrad",
+    "moves": [
+      "d4",
+      "f5",
+      "c4",
+      "Nf6",
+      "g3",
+      "g6"
+    ],
+    "description": "Leningrad Dutch"
+  },
+  "A90": {
+    "name": "Dutch Defense",
+    "variation": "Classical",
+    "moves": [
+      "d4",
+      "f5",
+      "c4",
+      "e6"
+    ],
+    "description": "Classical Dutch"
+  },
+  "B00": {
+    "name": "King's Pawn Opening",
+    "variation": "",
+    "moves": [
+      "e4"
+    ],
+    "description": "The King's Pawn Opening"
+  },
+  "B01": {
+    "name": "Scandinavian Defense",
+    "variation": "",
+    "moves": [
+      "e4",
+      "d5"
+    ],
+    "description": "Center Counter Defense"
+  },
+  "B02": {
+    "name": "Alekhine's Defense",
+    "variation": "",
+    "moves": [
+      "e4",
+      "Nf6"
+    ],
+    "description": "Hypermodern defense"
+  },
+  "B06": {
+    "name": "Robatsch Defense",
+    "variation": "",
+    "moves": [
+      "e4",
+      "g6"
+    ],
+    "description": "Modern Defense"
+  },
+  "B10": {
+    "name": "Caro-Kann Defense",
+    "variation": "",
+    "moves": [
+      "e4",
+      "c6"
+    ],
+    "description": "Solid defense with 1...c6"
+  },
+  "B12": {
+    "name": "Caro-Kann Defense",
+    "variation": "Advance",
+    "moves": [
+      "e4",
+      "c6",
+      "d4",
+      "d5",
+      "e5"
+    ],
+    "description": "Caro-Kann Advance"
+  },
+  "B13": {
+    "name": "Caro-Kann, Exchange Variation",
+    "variation": "Exchange",
+    "moves": [
+      "e4",
+      "c6",
+      "d4",
+      "d5",
+      "exd5",
+      "cxd5"
+    ],
+    "description": "Caro-Kann Exchange"
+  },
+  "B18": {
+    "name": "Caro-Kann, Classical",
+    "variation": "Classical",
+    "moves": [
+      "e4",
+      "c6",
+      "d4",
+      "d5",
+      "Nc3",
+      "dxe4",
+      "Nxe4",
+      "Bf5"
+    ],
+    "description": "Caro-Kann Classical"
+  },
+  "B20": {
+    "name": "Sicilian Defense",
+    "variation": "",
+    "moves": [
+      "e4",
+      "c5"
+    ],
+    "description": "Most popular response to 1.e4"
+  },
+  "B22": {
+    "name": "Sicilian, Alapin",
+    "variation": "Alapin",
+    "moves": [
+      "e4",
+      "c5",
+      "c3"
+    ],
+    "description": "Alapin Variation"
+  },
+  "B23": {
+    "name": "Sicilian, Closed",
+    "variation": "Closed",
+    "moves": [
+      "e4",
+      "c5",
+      "Nc3"
+    ],
+    "description": "Closed Sicilian"
+  },
+  "B30": {
+    "name": "Sicilian Defense",
+    "variation": "",
+    "moves": [
+      "e4",
+      "c5",
+      "Nf3",
+      "Nc6"
+    ],
+    "description": "Sicilian with ...Nc6"
+  },
+  "B31": {
+    "name": "Sicilian, Nimzovich-Rossolimo Attack",
+    "variation": "Rossolimo",
+    "moves": [
+      "e4",
+      "c5",
+      "Nf3",
+      "Nc6",
+      "Bb5"
+    ],
+    "description": "Rossolimo"
+  },
+  "B33": {
+    "name": "Sicilian, Sveshnikov Variation",
+    "variation": "Sveshnikov",
+    "moves": [
+      "e4",
+      "c5",
+      "Nf3",
+      "Nc6",
+      "d4",
+      "cxd4",
+      "Nxd4",
+      "Nf6",
+      "Nc3",
+      "e5"
+    ],
+    "description": "Sveshnikov"
+  },
+  "B40": {
+    "name": "Sicilian Defense",
+    "variation": "French Variation",
+    "moves": [
+      "e4",
+      "c5",
+      "Nf3",
+      "e6"
+    ],
+    "description": "Sicilian-French"
+  },
+  "B41": {
+    "name": "Sicilian, Kan Variation",
+    "variation": "Kan",
+    "moves": [
+      "e4",
+      "c5",
+      "Nf3",
+      "e6",
+      "d4",
+      "cxd4",
+      "Nxd4",
+      "a6"
+    ],
+    "description": "Kan Variation"
+  },
+  "B45": {
+    "name": "Sicilian, Taimanov Variation",
+    "variation": "Taimanov",
+    "moves": [
+      "e4",
+      "c5",
+      "Nf3",
+      "e6",
+      "d4",
+      "cxd4",
+      "Nxd4",
+      "Nc6",
+      "Nc3"
+    ],
+    "description": "Taimanov"
+  },
+  "B50": {
+    "name": "Sicilian Defense",
+    "variation": "",
+    "moves": [
+      "e4",
+      "c5",
+      "Nf3",
+      "d6"
+    ],
+    "description": "Sicilian with ...d6"
+  },
+  "B60": {
+    "name": "Sicilian, Richter-Rauzer",
+    "variation": "Richter-Rauzer",
+    "moves": [
+      "e4",
+      "c5",
+      "Nf3",
+      "d6",
+      "d4",
+      "cxd4",
+      "Nxd4",
+      "Nf6",
+      "Nc3",
+      "Nc6",
+      "Bg5"
+    ],
+    "description": "Richter-Rauzer"
+  },
+  "B70": {
+    "name": "Sicilian, Dragon Variation",
+    "variation": "Dragon",
+    "moves": [
+      "e4",
+      "c5",
+      "Nf3",
+      "d6",
+      "d4",
+      "cxd4",
+      "Nxd4",
+      "Nf6",
+      "Nc3",
+      "g6"
+    ],
+    "description": "Dragon Variation"
+  },
+  "B75": {
+    "name": "Sicilian, Dragon, Yugoslav Attack",
+    "variation": "Dragon Yugoslav",
+    "moves": [
+      "e4",
+      "c5",
+      "Nf3",
+      "d6",
+      "d4",
+      "cxd4",
+      "Nxd4",
+      "Nf6",
+      "Nc3",
+      "g6",
+      "Be3",
+      "Bg7",
+      "f3"
+    ],
+    "description": "Yugoslav Attack"
+  },
+  "B80": {
+    "name": "Sicilian, Scheveningen Variation",
+    "variation": "Scheveningen",
+    "moves": [
+      "e4",
+      "c5",
+      "Nf3",
+      "d6",
+      "d4",
+      "cxd4",
+      "Nxd4",
+      "Nf6",
+      "Nc3",
+      "e6"
+    ],
+    "description": "Scheveningen"
+  },
+  "B90": {
+    "name": "Sicilian, Najdorf Variation",
+    "variation": "Najdorf",
+    "moves": [
+      "e4",
+      "c5",
+      "Nf3",
+      "d6",
+      "d4",
+      "cxd4",
+      "Nxd4",
+      "Nf6",
+      "Nc3",
+      "a6"
+    ],
+    "description": "Najdorf Variation"
+  },
+  "B92": {
+    "name": "Sicilian, Najdorf, 6.Be2",
+    "variation": "Najdorf 6.Bg5",
+    "moves": [
+      "e4",
+      "c5",
+      "Nf3",
+      "d6",
+      "d4",
+      "cxd4",
+      "Nxd4",
+      "Nf6",
+      "Nc3",
+      "a6",
+      "Bg5"
+    ],
+    "description": "Najdorf with Bg5"
+  },
+  "B94": {
+    "name": "Sicilian, Najdorf, 6.Bg5",
+    "variation": "Najdorf 6.Bg5 e6",
+    "moves": [
+      "e4",
+      "c5",
+      "Nf3",
+      "d6",
+      "d4",
+      "cxd4",
+      "Nxd4",
+      "Nf6",
+      "Nc3",
+      "a6",
+      "Bg5",
+      "e6"
+    ],
+    "description": "Najdorf main line"
+  },
+  "C00": {
+    "name": "French Defense",
+    "variation": "",
+    "moves": [
+      "e4",
+      "e6"
+    ],
+    "description": "Solid defense with 1...e6"
+  },
+  "C02": {
+    "name": "French, Advance Variation",
+    "variation": "Advance",
+    "moves": [
+      "e4",
+      "e6",
+      "d4",
+      "d5",
+      "e5"
+    ],
+    "description": "French Advance"
+  },
+  "C03": {
+    "name": "French, Tarrasch",
+    "variation": "Tarrasch",
+    "moves": [
+      "e4",
+      "e6",
+      "d4",
+      "d5",
+      "Nd2"
+    ],
+    "description": "Tarrasch Variation"
+  },
+  "C10": {
+    "name": "French, Rubinstein Variation",
+    "variation": "Classical",
+    "moves": [
+      "e4",
+      "e6",
+      "d4",
+      "d5",
+      "Nc3"
+    ],
+    "description": "French Classical"
+  },
+  "C15": {
+    "name": "French, Winawer Variation",
+    "variation": "Winawer",
+    "moves": [
+      "e4",
+      "e6",
+      "d4",
+      "d5",
+      "Nc3",
+      "Bb4"
+    ],
+    "description": "Winawer Variation"
+  },
+  "C20": {
+    "name": "King's Pawn Game",
+    "variation": "",
+    "moves": [
+      "e4",
+      "e5"
+    ],
+    "description": "The Open Game"
+  },
+  "C21": {
+    "name": "Danish Gambit",
+    "variation": "",
+    "moves": [
+      "e4",
+      "e5",
+      "d4"
+    ],
+    "description": "Scotch Game"
+  },
+  "C23": {
+    "name": "Bishop's Opening",
+    "variation": "",
+    "moves": [
+      "e4",
+      "e5",
+      "Bc4"
+    ],
+    "description": "Bishop's Opening"
+  },
+  "C25": {
+    "name": "Vienna Game",
+    "variation": "",
+    "moves": [
+      "e4",
+      "e5",
+      "Nc3"
+    ],
+    "description": "Vienna Game"
+  },
+  "C30": {
+    "name": "King's Gambit Declined",
+    "variation": "",
+    "moves": [
+      "e4",
+      "e5",
+      "f4"
+    ],
+    "description": "The King's Gambit"
+  },
+  "C33": {
+    "name": "King's Gambit Accepted",
+    "variation": "",
+    "moves": [
+      "e4",
+      "e5",
+      "f4",
+      "exf4"
+    ],
+    "description": "KGA"
+  },
+  "C40": {
+    "name": "Latvian Gambit",
+    "variation": "",
+    "moves": [
+      "e4",
+      "e5",
+      "Nf3"
+    ],
+    "description": "King's Knight Opening"
+  },
+  "C41": {
+    "name": "Philidor Defense",
+    "variation": "",
+    "moves": [
+      "e4",
+      "e5",
+      "Nf3",
+      "d6"
+    ],
+    "description": "Philidor Defense"
+  },
+  "C42": {
+    "name": "Petrov Defense",
+    "variation": "",
+    "moves": [
+      "e4",
+      "e5",
+      "Nf3",
+      "Nf6"
+    ],
+    "description": "Russian Defense"
+  },
+  "C44": {
+    "name": "Ponziani Opening",
+    "variation": "",
+    "moves": [
+      "e4",
+      "e5",
+      "Nf3",
+      "Nc6",
+      "d4"
+    ],
+    "description": "Scotch Game"
+  },
+  "C46": {
+    "name": "Three Knights' Game",
+    "variation": "",
+    "moves": [
+      "e4",
+      "e5",
+      "Nf3",
+      "Nc6",
+      "Nc3"
+    ],
+    "description": "Three Knights"
+  },
+  "C47": {
+    "name": "Four Knights' Game",
+    "variation": "",
+    "moves": [
+      "e4",
+      "e5",
+      "Nf3",
+      "Nc6",
+      "Nc3",
+      "Nf6"
+    ],
+    "description": "Four Knights"
+  },
+  "C50": {
+    "name": "Italian Game",
+    "variation": "",
+    "moves": [
+      "e4",
+      "e5",
+      "Nf3",
+      "Nc6",
+      "Bc4",
+      "Bc5"
+    ],
+    "description": "Italian Game"
+  },
+  "C51": {
+    "name": "Evans Gambit",
+    "variation": "",
+    "moves": [
+      "e4",
+      "e5",
+      "Nf3",
+      "Nc6",
+      "Bc4",
+      "Bc5",
+      "b4"
+    ],
+    "description": "Evans Gambit"
+  },
+  "C55": {
+    "name": "Two Knights' Defense",
+    "variation": "",
+    "moves": [
+      "e4",
+      "e5",
+      "Nf3",
+      "Nc6",
+      "Bc4",
+      "Nf6"
+    ],
+    "description": "Two Knights Defense"
+  },
+  "C57": {
+    "name": "Two Knights' Defense",
+    "variation": "Fried Liver",
+    "moves": [
+      "e4",
+      "e5",
+      "Nf3",
+      "Nc6",
+      "Bc4",
+      "Nf6",
+      "Ng5"
+    ],
+    "description": "Fried Liver Attack"
+  },
+  "C60": {
+    "name": "Ruy Lopez",
+    "variation": "",
+    "moves": [
+      "e4",
+      "e5",
+      "Nf3",
+      "Nc6",
+      "Bb5"
+    ],
+    "description": "The Spanish Game"
+  },
+  "C64": {
+    "name": "Ruy Lopez, Berlin Defense",
+    "variation": "Berlin Defense",
+    "moves": [
+      "e4",
+      "e5",
+      "Nf3",
+      "Nc6",
+      "Bb5",
+      "Nf6"
+    ],
+    "description": "Berlin Defense"
+  },
+  "C65": {
+    "name": "Ruy Lopez, Berlin Defense",
+    "variation": "Berlin",
+    "moves": [
+      "e4",
+      "e5",
+      "Nf3",
+      "Nc6",
+      "Bb5",
+      "Nf6",
+      "O-O"
+    ],
+    "description": "Berlin with O-O"
+  },
+  "C67": {
+    "name": "Ruy Lopez, Berlin Defense, Open Variation",
+    "variation": "Berlin Open",
+    "moves": [
+      "e4",
+      "e5",
+      "Nf3",
+      "Nc6",
+      "Bb5",
+      "Nf6",
+      "O-O",
+      "Nxe4"
+    ],
+    "description": "Berlin Open"
+  },
+  "C68": {
+    "name": "Ruy Lopez, Exchange Variation",
+    "variation": "Exchange",
+    "moves": [
+      "e4",
+      "e5",
+      "Nf3",
+      "Nc6",
+      "Bb5",
+      "a6",
+      "Bxc6"
+    ],
+    "description": "Ruy Lopez Exchange"
+  },
+  "C71": {
+    "name": "Ruy Lopez, Steinitz Defense Deferred",
+    "variation": "Steinitz Defense Deferred",
+    "moves": [
+      "e4",
+      "e5",
+      "Nf3",
+      "Nc6",
+      "Bb5",
+      "a6",
+      "Ba4",
+      "d6"
+    ],
+    "description": "Steinitz Deferred"
+  },
+  "C75": {
+    "name": "Ruy Lopez, Modern Steinitz Defense",
+    "variation": "Steinitz Deferred",
+    "moves": [
+      "e4",
+      "e5",
+      "Nf3",
+      "Nc6",
+      "Bb5",
+      "a6",
+      "Ba4",
+      "d6",
+      "c3",
+      "Bg4"
+    ],
+    "description": "Steinitz Deferred main"
+  },
+  "C77": {
+    "name": "Ruy Lopez, Morphy Defense",
+    "variation": "Morphy Defense",
+    "moves": [
+      "e4",
+      "e5",
+      "Nf3",
+      "Nc6",
+      "Bb5",
+      "a6",
+      "Ba4",
+      "Nf6",
+      "O-O"
+    ],
+    "description": "Morphy Defense"
+  },
+  "C78": {
+    "name": "Ruy Lopez, 5.O-O",
+    "variation": "5.O-O",
+    "moves": [
+      "e4",
+      "e5",
+      "Nf3",
+      "Nc6",
+      "Bb5",
+      "a6",
+      "Ba4",
+      "Nf6",
+      "O-O",
+      "Be7"
+    ],
+    "description": "Ruy Lopez Closed"
+  },
+  "C84": {
+    "name": "Ruy Lopez, Closed Variation",
+    "variation": "Closed",
+    "moves": [
+      "e4",
+      "e5",
+      "Nf3",
+      "Nc6",
+      "Bb5",
+      "a6",
+      "Ba4",
+      "Nf6",
+      "O-O",
+      "Be7",
+      "Re1",
+      "b5",
+      "Bb3"
+    ],
+    "description": "Ruy Lopez Closed main"
+  },
+  "C88": {
+    "name": "Ruy Lopez, Closed, 7...dxc4",
+    "variation": "Closed",
+    "moves": [
+      "e4",
+      "e5",
+      "Nf3",
+      "Nc6",
+      "Bb5",
+      "a6",
+      "Ba4",
+      "Nf6",
+      "O-O",
+      "Be7",
+      "Re1",
+      "b5",
+      "Bb3",
+      "O-O",
+      "d6"
+    ],
+    "description": "Ruy Lopez Closed with ...d6"
+  },
+  "C89": {
+    "name": "Ruy Lopez, Marshall Attack",
+    "variation": "Marshall Attack",
+    "moves": [
+      "e4",
+      "e5",
+      "Nf3",
+      "Nc6",
+      "Bb5",
+      "a6",
+      "Ba4",
+      "Nf6",
+      "O-O",
+      "Be7",
+      "Re1",
+      "b5",
+      "Bb3",
+      "O-O",
+      "c5",
+      "d4"
+    ],
+    "description": "Marshall Attack"
+  },
+  "C92": {
+    "name": "Ruy Lopez, Closed, 9.c3",
+    "variation": "Closed",
+    "moves": [
+      "e4",
+      "e5",
+      "Nf3",
+      "Nc6",
+      "Bb5",
+      "a6",
+      "Ba4",
+      "Nf6",
+      "O-O",
+      "Be7",
+      "Re1",
+      "b5",
+      "Bb3",
+      "O-O",
+      "d6",
+      "c3"
+    ],
+    "description": "Closed with c3"
+  },
+  "C95": {
+    "name": "Ruy Lopez, Closed, Breyer Defense",
+    "variation": "Closed Breyer",
+    "moves": [
+      "e4",
+      "e5",
+      "Nf3",
+      "Nc6",
+      "Bb5",
+      "a6",
+      "Ba4",
+      "Nf6",
+      "O-O",
+      "Be7",
+      "Re1",
+      "b5",
+      "Bb3",
+      "O-O",
+      "d6",
+      "c3",
+      "Nb8"
+    ],
+    "description": "Breyer Variation"
+  },
+  "C97": {
+    "name": "Ruy Lopez, Closed, Chigorin Variation",
+    "variation": "Closed Chigorin",
+    "moves": [
+      "e4",
+      "e5",
+      "Nf3",
+      "Nc6",
+      "Bb5",
+      "a6",
+      "Ba4",
+      "Nf6",
+      "O-O",
+      "Be7",
+      "Re1",
+      "b5",
+      "Bb3",
+      "O-O",
+      "d6",
+      "c3",
+      "Na5"
+    ],
+    "description": "Chigorin Variation"
+  },
+  "C99": {
+    "name": "Ruy Lopez, Closed, Chigorin, 12...c5",
+    "variation": "Closed Chigorin",
+    "moves": [
+      "e4",
+      "e5",
+      "Nf3",
+      "Nc6",
+      "Bb5",
+      "a6",
+      "Ba4",
+      "Nf6",
+      "O-O",
+      "Be7",
+      "Re1",
+      "b5",
+      "Bb3",
+      "O-O",
+      "d6",
+      "c3",
+      "Na5",
+      "Bc2",
+      "c5",
+      "d4"
+    ],
+    "description": "Chigorin with ...c5"
+  },
+  "D00": {
+    "name": "Queen's Pawn Game",
+    "variation": "",
+    "moves": [
+      "d4"
+    ],
+    "description": "Queen's Pawn Opening"
+  },
+  "D02": {
+    "name": "Queen's Pawn Game, Zukertort Variation",
+    "variation": "2.Nf3",
+    "moves": [
+      "d4",
+      "Nf3"
+    ],
+    "description": "Queen's Pawn with Nf3"
+  },
+  "D06": {
+    "name": "Queen's Gambit",
+    "variation": "",
+    "moves": [
+      "d4",
+      "d5",
+      "c4"
+    ],
+    "description": "The Queen's Gambit"
+  },
+  "D07": {
+    "name": "Queen's Gambit Declined, Chigorin Defense",
+    "variation": "Chigorin Defense",
+    "moves": [
+      "d4",
+      "d5",
+      "c4",
+      "Nc6"
+    ],
+    "description": "Chigorin Defense"
+  },
+  "D08": {
+    "name": "Queen's Gambit Declined, Albin Counter Gambit",
+    "variation": "Albin Countergambit",
+    "moves": [
+      "d4",
+      "d5",
+      "c4",
+      "e5"
+    ],
+    "description": "Albin Countergambit"
+  },
+  "D10": {
+    "name": "Queen's Gambit Declined, Slav Defense",
+    "variation": "Slav Defense",
+    "moves": [
+      "d4",
+      "d5",
+      "c4",
+      "c6"
+    ],
+    "description": "Slav Defense"
+  },
+  "D15": {
+    "name": "Queen's Gambit Declined, Slav, 4.e3",
+    "variation": "Slav",
+    "moves": [
+      "d4",
+      "d5",
+      "c4",
+      "c6",
+      "Nc3",
+      "Nf6",
+      "Nf3",
+      "a6"
+    ],
+    "description": "Slav with ...a6"
+  },
+  "D17": {
+    "name": "Queen's Gambit Declined, Slav, 4.e3 a6 5.Bd3",
+    "variation": "Slav",
+    "moves": [
+      "d4",
+      "d5",
+      "c4",
+      "c6",
+      "Nc3",
+      "Nf6",
+      "Nf3",
+      "dxc4",
+      "a4",
+      "Bf5"
+    ],
+    "description": "Slav with ...Bf5"
+  },
+  "D20": {
+    "name": "Queen's Gambit Accepted",
+    "variation": "",
+    "moves": [
+      "d4",
+      "d5",
+      "c4",
+      "dxc4"
+    ],
+    "description": "QGA"
+  },
+  "D27": {
+    "name": "Queen's Gambit Accepted, Classical Variation",
+    "variation": "Classical",
+    "moves": [
+      "d4",
+      "d5",
+      "c4",
+      "dxc4",
+      "Nf3",
+      "Nf6",
+      "e3",
+      "e6",
+      "Bxc4",
+      "c5",
+      "O-O",
+      "a6"
+    ],
+    "description": "QGA Classical"
+  },
+  "D30": {
+    "name": "Queen's Gambit Declined",
+    "variation": "",
+    "moves": [
+      "d4",
+      "d5",
+      "c4",
+      "e6"
+    ],
+    "description": "QGD"
+  },
+  "D35": {
+    "name": "Queen's Gambit Declined",
+    "variation": "",
+    "moves": [
+      "d4",
+      "d5",
+      "c4",
+      "e6",
+      "Nc3",
+      "Nf6"
+    ],
+    "description": "QGD main"
+  },
+  "D37": {
+    "name": "Queen's Gambit Declined",
+    "variation": "",
+    "moves": [
+      "d4",
+      "d5",
+      "c4",
+      "e6",
+      "Nc3",
+      "Nf6",
+      "Bf4"
+    ],
+    "description": "QGD Ragozin"
+  },
+  "D44": {
+    "name": "Queen's Gambit Declined, Semi-Slav, Botvinnik Variation",
+    "variation": "Botvinnik",
+    "moves": [
+      "d4",
+      "d5",
+      "c4",
+      "e6",
+      "Nc3",
+      "Nf6",
+      "Nf3",
+      "c6",
+      "Bg5",
+      "dxc4"
+    ],
+    "description": "Botvinnik Variation"
+  },
+  "D46": {
+    "name": "Queen's Gambit Declined, Semi-Slav, Meran Variation",
+    "variation": "",
+    "moves": [
+      "d4",
+      "d5",
+      "c4",
+      "e6",
+      "Nc3",
+      "Nf6",
+      "Nf3",
+      "c6",
+      "e3"
+    ],
+    "description": "Semi-Slav with e3"
+  },
+  "D50": {
+    "name": "Queen's Gambit Declined",
+    "variation": "",
+    "moves": [
+      "d4",
+      "d5",
+      "c4",
+      "e6",
+      "Nc3",
+      "Nf6",
+      "Bg5"
+    ],
+    "description": "QGD with Bg5"
+  },
+  "D55": {
+    "name": "Queen's Gambit Declined",
+    "variation": "",
+    "moves": [
+      "d4",
+      "d5",
+      "c4",
+      "e6",
+      "Nc3",
+      "Nf6",
+      "Bg5",
+      "Be7",
+      "e3"
+    ],
+    "description": "QGD with Be7"
+  },
+  "D58": {
+    "name": "Queen's Gambit Declined, Tartakower Defense",
+    "variation": "Tartakower",
+    "moves": [
+      "d4",
+      "d5",
+      "c4",
+      "e6",
+      "Nc3",
+      "Nf6",
+      "Bg5",
+      "Be7",
+      "e3",
+      "O-O",
+      "Nf3",
+      "h6",
+      "Bh4",
+      "b6"
+    ],
+    "description": "Tartakower Variation"
+  },
+  "D66": {
+    "name": "Queen's Gambit Declined, Orthodox Defense",
+    "variation": "Orthodox",
+    "moves": [
+      "d4",
+      "d5",
+      "c4",
+      "e6",
+      "Nc3",
+      "Nf6",
+      "Bg5",
+      "Be7",
+      "e3",
+      "O-O",
+      "Nf3",
+      "Nbd7"
+    ],
+    "description": "Orthodox Defense"
+  },
+  "D70": {
+    "name": "Gruenfeld Defense",
+    "variation": "",
+    "moves": [
+      "d4",
+      "Nf6",
+      "c4",
+      "g6",
+      "f3"
+    ],
+    "description": "Neo-Grunfeld with f3"
+  },
+  "D72": {
+    "name": "Gruenfeld Defense, 5.Nc2",
+    "variation": "",
+    "moves": [
+      "d4",
+      "Nf6",
+      "c4",
+      "g6",
+      "f3",
+      "d5"
+    ],
+    "description": "Neo-Grunfeld with ...d5"
+  },
+  "D75": {
+    "name": "Gruenfeld Defense, 5.Ne2, 6.Be3",
+    "variation": "",
+    "moves": [
+      "d4",
+      "Nf6",
+      "c4",
+      "g6",
+      "f3",
+      "d5",
+      "cxd5",
+      "Nxd5"
+    ],
+    "description": "Neo-Grunfeld main"
+  },
+  "D78": {
+    "name": "Gruenfeld Defense, 5.Nf3, 6.Be3",
+    "variation": "",
+    "moves": [
+      "d4",
+      "Nf6",
+      "c4",
+      "g6",
+      "f3",
+      "d5",
+      "cxd5",
+      "Nxd5",
+      "e4",
+      "Nb6",
+      "Nc3"
+    ],
+    "description": "Neo-Grunfeld with Nc3"
+  },
+  "D80": {
+    "name": "Gruenfeld Defense",
+    "variation": "",
+    "moves": [
+      "d4",
+      "Nf6",
+      "c4",
+      "g6",
+      "Nc3",
+      "d5"
+    ],
+    "description": "Grunfeld Defense"
+  },
+  "D82": {
+    "name": "Gruenfeld Defense, 4.Bf4",
+    "variation": "",
+    "moves": [
+      "d4",
+      "Nf6",
+      "c4",
+      "g6",
+      "Nc3",
+      "d5",
+      "Bf4"
+    ],
+    "description": "Grunfeld with Bf4"
+  },
+  "D85": {
+    "name": "Gruenfeld Defense",
+    "variation": "Exchange",
+    "moves": [
+      "d4",
+      "Nf6",
+      "c4",
+      "g6",
+      "Nc3",
+      "d5",
+      "cxd5",
+      "Nxd5",
+      "e4"
+    ],
+    "description": "Grunfeld Exchange"
+  },
+  "D90": {
+    "name": "Gruenfeld Defense",
+    "variation": "",
+    "moves": [
+      "d4",
+      "Nf6",
+      "c4",
+      "g6",
+      "Nc3",
+      "d5",
+      "cxd5",
+      "Nxd5",
+      "e4",
+      "Nxc3",
+      "bxc3"
+    ],
+    "description": "Grunfeld with Nxc3"
+  },
+  "D92": {
+    "name": "Gruenfeld Defense, 5.Bf4",
+    "variation": "",
+    "moves": [
+      "d4",
+      "Nf6",
+      "c4",
+      "g6",
+      "Nc3",
+      "d5",
+      "Bf4",
+      "Bg7"
+    ],
+    "description": "Grunfeld with Bf4 Bg7"
+  },
+  "D94": {
+    "name": "Gruenfeld Defense, 5.e3",
+    "variation": "",
+    "moves": [
+      "d4",
+      "Nf6",
+      "c4",
+      "g6",
+      "Nc3",
+      "d5",
+      "cxd5",
+      "Nxd5",
+      "e4",
+      "Nxc3",
+      "bxc3",
+      "Bg7"
+    ],
+    "description": "Grunfeld main"
+  },
+  "D97": {
+    "name": "Gruenfeld Defense, 5.e3, Russian Variation",
+    "variation": "Exchange",
+    "moves": [
+      "d4",
+      "Nf6",
+      "c4",
+      "g6",
+      "Nc3",
+      "d5",
+      "cxd5",
+      "Nxd5",
+      "e4",
+      "Nxc3",
+      "bxc3",
+      "Bg7",
+      "Nf3"
+    ],
+    "description": "Grunfeld Exchange main"
+  },
+  "E00": {
+    "name": "Indian Defense",
+    "variation": "",
+    "moves": [
+      "d4",
+      "Nf6",
+      "c4",
+      "e6",
+      "g3"
+    ],
+    "description": "Catalan Opening"
+  },
+  "E01": {
+    "name": "Catalan, Closed Variation",
+    "variation": "Closed",
+    "moves": [
+      "d4",
+      "Nf6",
+      "c4",
+      "e6",
+      "g3",
+      "d5"
+    ],
+    "description": "Catalan Closed"
+  },
+  "E05": {
+    "name": "Catalan, Open Variation, Classical Line",
+    "variation": "Open",
+    "moves": [
+      "d4",
+      "Nf6",
+      "c4",
+      "e6",
+      "g3",
+      "d5",
+      "Bg2",
+      "Be7"
+    ],
+    "description": "Catalan Open"
+  },
+  "E06": {
+    "name": "Catalan, Closed Variation",
+    "variation": "Closed",
+    "moves": [
+      "d4",
+      "Nf6",
+      "c4",
+      "e6",
+      "g3",
+      "d5",
+      "Bg2",
+      "Be7",
+      "Nf3"
+    ],
+    "description": "Catalan Closed with Nf3"
+  },
+  "E10": {
+    "name": "Blumenfeld Gambit",
+    "variation": "",
+    "moves": [
+      "d4",
+      "Nf6",
+      "c4",
+      "e6",
+      "Nf3",
+      "d5"
+    ],
+    "description": "QID with ...d5"
+  },
+  "E11": {
+    "name": "Bogo-Indian Defense",
+    "variation": "",
+    "moves": [
+      "d4",
+      "Nf6",
+      "c4",
+      "e6",
+      "Nf3",
+      "Bb4+"
+    ],
+    "description": "Bogo-Indian"
+  },
+  "E12": {
+    "name": "Queen's Indian Defense",
+    "variation": "",
+    "moves": [
+      "d4",
+      "Nf6",
+      "c4",
+      "e6",
+      "Nf3",
+      "b6"
+    ],
+    "description": "Queen's Indian"
+  },
+  "E15": {
+    "name": "Queen's Indian Defense",
+    "variation": "",
+    "moves": [
+      "d4",
+      "Nf6",
+      "c4",
+      "e6",
+      "Nf3",
+      "b6",
+      "g3",
+      "Ba6"
+    ],
+    "description": "QID with ...Ba6"
+  },
+  "E20": {
+    "name": "Nimzo-Indian Defense",
+    "variation": "",
+    "moves": [
+      "d4",
+      "Nf6",
+      "c4",
+      "e6",
+      "Nc3",
+      "Bb4"
+    ],
+    "description": "Nimzo-Indian"
+  },
+  "E21": {
+    "name": "Nimzo-Indian Defense",
+    "variation": "",
+    "moves": [
+      "d4",
+      "Nf6",
+      "c4",
+      "e6",
+      "Nc3",
+      "Bb4",
+      "Nf3"
+    ],
+    "description": "Nimzo with Nf3"
+  },
+  "E24": {
+    "name": "Nimzo-Indian, Samisch Variation",
+    "variation": "Samisch",
+    "moves": [
+      "d4",
+      "Nf6",
+      "c4",
+      "e6",
+      "Nc3",
+      "Bb4",
+      "a3",
+      "Bxc3",
+      "bxc3"
+    ],
+    "description": "Samisch Variation"
+  },
+  "E26": {
+    "name": "Nimzo-Indian, Samisch Variation",
+    "variation": "Samisch",
+    "moves": [
+      "d4",
+      "Nf6",
+      "c4",
+      "e6",
+      "Nc3",
+      "Bb4",
+      "a3",
+      "Bxc3",
+      "bxc3",
+      "c5",
+      "dxc5"
+    ],
+    "description": "Samisch main"
+  },
+  "E30": {
+    "name": "Nimzo-Indian, Leningrad Variation",
+    "variation": "Leningrad",
+    "moves": [
+      "d4",
+      "Nf6",
+      "c4",
+      "e6",
+      "Nc3",
+      "Bb4",
+      "Bg5"
+    ],
+    "description": "Leningrad Variation"
+  },
+  "E32": {
+    "name": "Nimzo-Indian, Classical Variation",
+    "variation": "Classical",
+    "moves": [
+      "d4",
+      "Nf6",
+      "c4",
+      "e6",
+      "Nc3",
+      "Bb4",
+      "Qc2"
+    ],
+    "description": "Classical with Qc2"
+  },
+  "E39": {
+    "name": "Nimzo-Indian, Classical Variation",
+    "variation": "Classical",
+    "moves": [
+      "d4",
+      "Nf6",
+      "c4",
+      "e6",
+      "Nc3",
+      "Bb4",
+      "Qc2",
+      "c5",
+      "dxc5",
+      "O-O"
+    ],
+    "description": "Classical main"
+  },
+  "E41": {
+    "name": "Nimzo-Indian Defense",
+    "variation": "",
+    "moves": [
+      "d4",
+      "Nf6",
+      "c4",
+      "e6",
+      "Nc3",
+      "Bb4",
+      "e3",
+      "c5"
+    ],
+    "description": "Nimzo with e3 c5"
+  },
+  "E43": {
+    "name": "Nimzo-Indian, Fischer Variation",
+    "variation": "Fischer Variation",
+    "moves": [
+      "d4",
+      "Nf6",
+      "c4",
+      "e6",
+      "Nc3",
+      "Bb4",
+      "e3",
+      "c5",
+      "Ne2"
+    ],
+    "description": "Fischer Variation"
+  },
+  "E46": {
+    "name": "Nimzo-Indian Defense",
+    "variation": "",
+    "moves": [
+      "d4",
+      "Nf6",
+      "c4",
+      "e6",
+      "Nc3",
+      "Bb4",
+      "e3",
+      "O-O"
+    ],
+    "description": "Nimzo with e3 O-O"
+  },
+  "E50": {
+    "name": "Nimzo-Indian, 4.e3 e5",
+    "variation": "",
+    "moves": [
+      "d4",
+      "Nf6",
+      "c4",
+      "e6",
+      "Nc3",
+      "Bb4",
+      "e3",
+      "O-O",
+      "Bd3"
+    ],
+    "description": "Nimzo with Bd3"
+  },
+  "E54": {
+    "name": "Nimzo-Indian, 4.e3 e5, 5.Nf3 dxc4, Gligoric System",
+    "variation": "Rubinstein",
+    "moves": [
+      "d4",
+      "Nf6",
+      "c4",
+      "e6",
+      "Nc3",
+      "Bb4",
+      "e3",
+      "O-O",
+      "Bd3",
+      "dxc4",
+      "Bxc4",
+      "c5"
+    ],
+    "description": "Rubinstein Variation"
+  },
+  "E60": {
+    "name": "King's Indian Defense",
+    "variation": "",
+    "moves": [
+      "d4",
+      "Nf6",
+      "c4",
+      "g6"
+    ],
+    "description": "King's Indian Defense"
+  },
+  "E61": {
+    "name": "King's Indian Defense",
+    "variation": "",
+    "moves": [
+      "d4",
+      "Nf6",
+      "c4",
+      "g6",
+      "Nc3"
+    ],
+    "description": "KID with Nc3"
+  },
+  "E62": {
+    "name": "King's Indian, Fianchetto Variation",
+    "variation": "Fianchetto",
+    "moves": [
+      "d4",
+      "Nf6",
+      "c4",
+      "g6",
+      "Nc3",
+      "Bg7",
+      "Nf3",
+      "O-O",
+      "g3"
+    ],
+    "description": "KID Fianchetto"
+  },
+  "E66": {
+    "name": "King's Indian, Fianchetto, Yugoslav, Panno Variation",
+    "variation": "Fianchetto",
+    "moves": [
+      "d4",
+      "Nf6",
+      "c4",
+      "g6",
+      "Nc3",
+      "Bg7",
+      "Nf3",
+      "O-O",
+      "g3",
+      "d6",
+      "Bg2",
+      "c5"
+    ],
+    "description": "KID Fianchetto with ...c5"
+  },
+  "E70": {
+    "name": "King's Indian Defense",
+    "variation": "",
+    "moves": [
+      "d4",
+      "Nf6",
+      "c4",
+      "g6",
+      "Nc3",
+      "Bg7",
+      "e4"
+    ],
+    "description": "KID with e4"
+  },
+  "E71": {
+    "name": "King's Indian, 5.g3",
+    "variation": "",
+    "moves": [
+      "d4",
+      "Nf6",
+      "c4",
+      "g6",
+      "Nc3",
+      "Bg7",
+      "e4",
+      "d6",
+      "f3"
+    ],
+    "description": "KID with f3"
+  },
+  "E73": {
+    "name": "King's Indian Defense",
+    "variation": "",
+    "moves": [
+      "d4",
+      "Nf6",
+      "c4",
+      "g6",
+      "Nc3",
+      "Bg7",
+      "e4",
+      "d6",
+      "Be2"
+    ],
+    "description": "KID with Be2"
+  },
+  "E75": {
+    "name": "King's Indian, Averbakh, Main Line",
+    "variation": "",
+    "moves": [
+      "d4",
+      "Nf6",
+      "c4",
+      "g6",
+      "Nc3",
+      "Bg7",
+      "e4",
+      "d6",
+      "Be2",
+      "O-O",
+      "Bg5"
+    ],
+    "description": "KID with Bg5"
+  },
+  "E77": {
+    "name": "King's Indian, Four Pawns Attack",
+    "variation": "",
+    "moves": [
+      "d4",
+      "Nf6",
+      "c4",
+      "g6",
+      "Nc3",
+      "Bg7",
+      "e4",
+      "d6",
+      "Be2",
+      "O-O",
+      "Bg5",
+      "c5",
+      "d5"
+    ],
+    "description": "KID main"
+  },
+  "E80": {
+    "name": "King's Indian, Samisch Variation",
+    "variation": "Samisch",
+    "moves": [
+      "d4",
+      "Nf6",
+      "c4",
+      "g6",
+      "Nc3",
+      "Bg7",
+      "e4",
+      "d6",
+      "f3"
+    ],
+    "description": "Samisch Variation"
+  },
+  "E81": {
+    "name": "King's Indian, Samisch Variation",
+    "variation": "Samisch",
+    "moves": [
+      "d4",
+      "Nf6",
+      "c4",
+      "g6",
+      "Nc3",
+      "Bg7",
+      "e4",
+      "d6",
+      "f3",
+      "O-O"
+    ],
+    "description": "Samisch with O-O"
+  },
+  "E83": {
+    "name": "King's Indian, Samisch, 5...Nc6",
+    "variation": "",
+    "moves": [
+      "d4",
+      "Nf6",
+      "c4",
+      "g6",
+      "Nc3",
+      "Bg7",
+      "e4",
+      "d6",
+      "f3",
+      "c6"
+    ],
+    "description": "KID with ...c6"
+  },
+  "E85": {
+    "name": "King's Indian, Samisch, 5...d5",
+    "variation": "Samisch",
+    "moves": [
+      "d4",
+      "Nf6",
+      "c4",
+      "g6",
+      "Nc3",
+      "Bg7",
+      "e4",
+      "d6",
+      "f3",
+      "f5"
+    ],
+    "description": "Samisch with ...f5"
+  },
+  "E90": {
+    "name": "King's Indian Defense",
+    "variation": "",
+    "moves": [
+      "d4",
+      "Nf6",
+      "c4",
+      "g6",
+      "Nc3",
+      "Bg7",
+      "e4",
+      "d6",
+      "Nf3"
+    ],
+    "description": "KID with Nf3"
+  },
+  "E91": {
+    "name": "King's Indian, 6.Bf4",
+    "variation": "",
+    "moves": [
+      "d4",
+      "Nf6",
+      "c4",
+      "g6",
+      "Nc3",
+      "Bg7",
+      "e4",
+      "d6",
+      "Nf3",
+      "O-O",
+      "Be2"
+    ],
+    "description": "KID with Be2"
+  },
+  "E92": {
+    "name": "King's Indian, Petrosian Variation",
+    "variation": "",
+    "moves": [
+      "d4",
+      "Nf6",
+      "c4",
+      "g6",
+      "Nc3",
+      "Bg7",
+      "e4",
+      "d6",
+      "Nf3",
+      "O-O",
+      "Be2",
+      "e5"
+    ],
+    "description": "KID with ...e5"
+  },
+  "E94": {
+    "name": "King's Indian, Orthodox Variation",
+    "variation": "Classical",
+    "moves": [
+      "d4",
+      "Nf6",
+      "c4",
+      "g6",
+      "Nc3",
+      "Bg7",
+      "e4",
+      "d6",
+      "Nf3",
+      "O-O",
+      "Be2",
+      "e5",
+      "O-O"
+    ],
+    "description": "KID Classical"
+  },
+  "E97": {
+    "name": "King's Indian, Orthodox, Aronin-Taimanov Attack",
+    "variation": "Classical",
+    "moves": [
+      "d4",
+      "Nf6",
+      "c4",
+      "g6",
+      "Nc3",
+      "Bg7",
+      "e4",
+      "d6",
+      "Nf3",
+      "O-O",
+      "Be2",
+      "e5",
+      "O-O",
+      "Ne1",
+      "Nd7"
+    ],
+    "description": "KID Classical main"
+  },
+  "E99": {
+    "name": "King's Indian, Orthodox, Aronin-Taimanov Attack",
+    "variation": "Classical",
+    "moves": [
+      "d4",
+      "Nf6",
+      "c4",
+      "g6",
+      "Nc3",
+      "Bg7",
+      "e4",
+      "d6",
+      "Nf3",
+      "O-O",
+      "Be2",
+      "e5",
+      "O-O",
+      "Ne1",
+      "Nd7",
+      "f3",
+      "c6"
+    ],
+    "description": "KID Classical with ...c6"
+  },
+  "A05": {
+    "name": "Reti Opening",
+    "variation": "",
+    "moves": [],
+    "description": "ECO code A05 - Flank Openings"
+  },
+  "A06": {
+    "name": "Reti Opening",
+    "variation": "",
+    "moves": [],
+    "description": "ECO code A06 - Flank Openings"
+  },
+  "A08": {
+    "name": "King's Indian Attack",
+    "variation": "",
+    "moves": [],
+    "description": "ECO code A08 - Flank Openings"
+  },
+  "A09": {
+    "name": "Reti Opening",
+    "variation": "",
+    "moves": [],
+    "description": "ECO code A09 - Flank Openings"
+  },
+  "A11": {
+    "name": "English, Caro-Kann Defensive System",
+    "variation": "",
+    "moves": [],
+    "description": "ECO code A11 - Flank Openings"
+  },
+  "A12": {
+    "name": "English with b3",
+    "variation": "",
+    "moves": [],
+    "description": "ECO code A12 - Flank Openings"
+  },
+  "A13": {
+    "name": "English Opening",
+    "variation": "",
+    "moves": [],
+    "description": "ECO code A13 - Flank Openings"
+  },
+  "A14": {
+    "name": "English Opening",
+    "variation": "",
+    "moves": [],
+    "description": "ECO code A14 - Flank Openings"
+  },
+  "A15": {
+    "name": "English Opening",
+    "variation": "",
+    "moves": [],
+    "description": "ECO code A15 - Flank Openings"
+  },
+  "A16": {
+    "name": "English Opening",
+    "variation": "",
+    "moves": [],
+    "description": "ECO code A16 - Flank Openings"
+  },
+  "A17": {
+    "name": "English Opening",
+    "variation": "",
+    "moves": [],
+    "description": "ECO code A17 - Flank Openings"
+  },
+  "A18": {
+    "name": "English, Mikenas-Carls",
+    "variation": "",
+    "moves": [],
+    "description": "ECO code A18 - Flank Openings"
+  },
+  "A19": {
+    "name": "English, Mikenas-Carls, Sicilian Variation",
+    "variation": "",
+    "moves": [],
+    "description": "ECO code A19 - Flank Openings"
+  },
+  "A21": {
+    "name": "English Opening",
+    "variation": "",
+    "moves": [],
+    "description": "ECO code A21 - Flank Openings"
+  },
+  "A23": {
+    "name": "English, Bremen System, Keres Variation",
+    "variation": "",
+    "moves": [],
+    "description": "ECO code A23 - Flank Openings"
+  },
+  "A24": {
+    "name": "English, Bremen System with ...g6",
+    "variation": "",
+    "moves": [],
+    "description": "ECO code A24 - Flank Openings"
+  },
+  "A25": {
+    "name": "English Opening",
+    "variation": "",
+    "moves": [],
+    "description": "ECO code A25 - Flank Openings"
+  },
+  "A26": {
+    "name": "English Opening",
+    "variation": "",
+    "moves": [],
+    "description": "ECO code A26 - Flank Openings"
+  },
+  "A27": {
+    "name": "English, Three Knights System",
+    "variation": "",
+    "moves": [],
+    "description": "ECO code A27 - Flank Openings"
+  },
+  "A28": {
+    "name": "English Opening",
+    "variation": "",
+    "moves": [],
+    "description": "ECO code A28 - Flank Openings"
+  },
+  "A29": {
+    "name": "English, Four Knights, Kingside Fianchetto",
+    "variation": "",
+    "moves": [],
+    "description": "ECO code A29 - Flank Openings"
+  },
+  "A31": {
+    "name": "English, Symmetrical, Benoni Formation",
+    "variation": "",
+    "moves": [],
+    "description": "ECO code A31 - Flank Openings"
+  },
+  "A32": {
+    "name": "English, Symmetrical Variation",
+    "variation": "",
+    "moves": [],
+    "description": "ECO code A32 - Flank Openings"
+  },
+  "A33": {
+    "name": "English, Symmetrical",
+    "variation": "",
+    "moves": [],
+    "description": "ECO code A33 - Flank Openings"
+  },
+  "A34": {
+    "name": "English, Symmetrical",
+    "variation": "",
+    "moves": [],
+    "description": "ECO code A34 - Flank Openings"
+  },
+  "A35": {
+    "name": "English, Symmetrical",
+    "variation": "",
+    "moves": [],
+    "description": "ECO code A35 - Flank Openings"
+  },
+  "A36": {
+    "name": "English Opening",
+    "variation": "",
+    "moves": [],
+    "description": "ECO code A36 - Flank Openings"
+  },
+  "A37": {
+    "name": "English, Symmetrical",
+    "variation": "",
+    "moves": [],
+    "description": "ECO code A37 - Flank Openings"
+  },
+  "A38": {
+    "name": "English, Symmetrical",
+    "variation": "",
+    "moves": [],
+    "description": "ECO code A38 - Flank Openings"
+  },
+  "A39": {
+    "name": "English, Symmetrical, Main line with d4",
+    "variation": "",
+    "moves": [],
+    "description": "ECO code A39 - Flank Openings"
+  },
+  "A41": {
+    "name": "Queen's Pawn Game (with ...d6)",
+    "variation": "",
+    "moves": [],
+    "description": "ECO code A41 - Flank Openings"
+  },
+  "A42": {
+    "name": "Modern Defense, Averbakh System",
+    "variation": "",
+    "moves": [],
+    "description": "ECO code A42 - Flank Openings"
+  },
+  "A44": {
+    "name": "Old Benoni Defense",
+    "variation": "",
+    "moves": [],
+    "description": "ECO code A44 - Flank Openings"
+  },
+  "A46": {
+    "name": "Queen's Pawn Game",
+    "variation": "",
+    "moves": [],
+    "description": "ECO code A46 - Flank Openings"
+  },
+  "A48": {
+    "name": "King's Indian Defense",
+    "variation": "",
+    "moves": [],
+    "description": "ECO code A48 - Flank Openings"
+  },
+  "A49": {
+    "name": "King's Indian, Fianchetto without c4",
+    "variation": "",
+    "moves": [],
+    "description": "ECO code A49 - Flank Openings"
+  },
+  "A53": {
+    "name": "Old Indian Defense",
+    "variation": "",
+    "moves": [],
+    "description": "ECO code A53 - Flank Openings"
+  },
+  "A54": {
+    "name": "Old Indian, Ukrainian Variation",
+    "variation": "",
+    "moves": [],
+    "description": "ECO code A54 - Flank Openings"
+  },
+  "A55": {
+    "name": "Old Indian, Main line",
+    "variation": "",
+    "moves": [],
+    "description": "ECO code A55 - Flank Openings"
+  },
+  "A58": {
+    "name": "Benko Gambit",
+    "variation": "",
+    "moves": [],
+    "description": "ECO code A58 - Flank Openings"
+  },
+  "A59": {
+    "name": "Benko Gambit",
+    "variation": "",
+    "moves": [],
+    "description": "ECO code A59 - Flank Openings"
+  },
+  "A62": {
+    "name": "Benoni, Fianchetto Variation",
+    "variation": "",
+    "moves": [],
+    "description": "ECO code A62 - Flank Openings"
+  },
+  "A63": {
+    "name": "Benoni, Fianchetto, 9...Nbd7",
+    "variation": "",
+    "moves": [],
+    "description": "ECO code A63 - Flank Openings"
+  },
+  "A64": {
+    "name": "Benoni, Fianchetto, 11...Re8",
+    "variation": "",
+    "moves": [],
+    "description": "ECO code A64 - Flank Openings"
+  },
+  "A65": {
+    "name": "Benoni, 6.e4",
+    "variation": "",
+    "moves": [],
+    "description": "ECO code A65 - Flank Openings"
+  },
+  "A66": {
+    "name": "Benoni Defense",
+    "variation": "",
+    "moves": [],
+    "description": "ECO code A66 - Flank Openings"
+  },
+  "A67": {
+    "name": "Benoni, Taimanov Variation",
+    "variation": "",
+    "moves": [],
+    "description": "ECO code A67 - Flank Openings"
+  },
+  "A69": {
+    "name": "Benoni, Four Pawns Attack, Main line",
+    "variation": "",
+    "moves": [],
+    "description": "ECO code A69 - Flank Openings"
+  },
+  "A70": {
+    "name": "Benoni, Classical",
+    "variation": "",
+    "moves": [],
+    "description": "ECO code A70 - Flank Openings"
+  },
+  "A71": {
+    "name": "Benoni, Classical, 8.Bg5",
+    "variation": "",
+    "moves": [],
+    "description": "ECO code A71 - Flank Openings"
+  },
+  "A72": {
+    "name": "Benoni, Classical without 9.O-O",
+    "variation": "",
+    "moves": [],
+    "description": "ECO code A72 - Flank Openings"
+  },
+  "A73": {
+    "name": "Benoni, Classical, 9.O-O",
+    "variation": "",
+    "moves": [],
+    "description": "ECO code A73 - Flank Openings"
+  },
+  "A74": {
+    "name": "Benoni, Classical, 9...a6, 10.a4",
+    "variation": "",
+    "moves": [],
+    "description": "ECO code A74 - Flank Openings"
+  },
+  "A75": {
+    "name": "Benoni, Classical with ...a6 and ...Bg4",
+    "variation": "",
+    "moves": [],
+    "description": "ECO code A75 - Flank Openings"
+  },
+  "A76": {
+    "name": "Benoni, Classical, 9...Re8",
+    "variation": "",
+    "moves": [],
+    "description": "ECO code A76 - Flank Openings"
+  },
+  "A77": {
+    "name": "Benoni, Classical, 9...Re8, 10.Nd2",
+    "variation": "",
+    "moves": [],
+    "description": "ECO code A77 - Flank Openings"
+  },
+  "A78": {
+    "name": "Benoni, Classical with ...Re8 and ...Na6",
+    "variation": "",
+    "moves": [],
+    "description": "ECO code A78 - Flank Openings"
+  },
+  "A79": {
+    "name": "Benoni, Classical, 11.f3",
+    "variation": "",
+    "moves": [],
+    "description": "ECO code A79 - Flank Openings"
+  },
+  "A81": {
+    "name": "Dutch Defense",
+    "variation": "",
+    "moves": [],
+    "description": "ECO code A81 - Flank Openings"
+  },
+  "A82": {
+    "name": "Dutch, Staunton Gambit",
+    "variation": "",
+    "moves": [],
+    "description": "ECO code A82 - Flank Openings"
+  },
+  "A83": {
+    "name": "Dutch, Staunton Gambit",
+    "variation": "",
+    "moves": [],
+    "description": "ECO code A83 - Flank Openings"
+  },
+  "A84": {
+    "name": "Dutch Defense",
+    "variation": "",
+    "moves": [],
+    "description": "ECO code A84 - Flank Openings"
+  },
+  "A85": {
+    "name": "Dutch, with c4 & Nc3",
+    "variation": "",
+    "moves": [],
+    "description": "ECO code A85 - Flank Openings"
+  },
+  "A86": {
+    "name": "Dutch Defense",
+    "variation": "",
+    "moves": [],
+    "description": "ECO code A86 - Flank Openings"
+  },
+  "A88": {
+    "name": "Dutch, Leningrad, Main Variation with c6",
+    "variation": "",
+    "moves": [],
+    "description": "ECO code A88 - Flank Openings"
+  },
+  "A89": {
+    "name": "Dutch, Leningrad, Main Variation with Nc6",
+    "variation": "",
+    "moves": [],
+    "description": "ECO code A89 - Flank Openings"
+  },
+  "A91": {
+    "name": "Dutch Defense",
+    "variation": "",
+    "moves": [],
+    "description": "ECO code A91 - Flank Openings"
+  },
+  "A92": {
+    "name": "Dutch Defense",
+    "variation": "",
+    "moves": [],
+    "description": "ECO code A92 - Flank Openings"
+  },
+  "A93": {
+    "name": "Dutch, Stonewall, Botvinnik Variation",
+    "variation": "",
+    "moves": [],
+    "description": "ECO code A93 - Flank Openings"
+  },
+  "A94": {
+    "name": "Dutch, Stonewall with Ba3",
+    "variation": "",
+    "moves": [],
+    "description": "ECO code A94 - Flank Openings"
+  },
+  "A95": {
+    "name": "Dutch, Stonewall",
+    "variation": "",
+    "moves": [],
+    "description": "ECO code A95 - Flank Openings"
+  },
+  "A96": {
+    "name": "Dutch, Classical Variation",
+    "variation": "",
+    "moves": [],
+    "description": "ECO code A96 - Flank Openings"
+  },
+  "A97": {
+    "name": "Dutch, Ilyin-Genevsky",
+    "variation": "",
+    "moves": [],
+    "description": "ECO code A97 - Flank Openings"
+  },
+  "A98": {
+    "name": "Dutch, Ilyin-Genevsky Variation with Qc2",
+    "variation": "",
+    "moves": [],
+    "description": "ECO code A98 - Flank Openings"
+  },
+  "A99": {
+    "name": "Dutch, Ilyin-Genevsky Variation with b3",
+    "variation": "",
+    "moves": [],
+    "description": "ECO code A99 - Flank Openings"
+  },
+  "B03": {
+    "name": "Alekhine's Defense",
+    "variation": "",
+    "moves": [],
+    "description": "ECO code B03 - Semi-Open Games"
+  },
+  "B04": {
+    "name": "Alekhine's Defense, Modern",
+    "variation": "",
+    "moves": [],
+    "description": "ECO code B04 - Semi-Open Games"
+  },
+  "B05": {
+    "name": "Alekhine's Defense, Modern",
+    "variation": "",
+    "moves": [],
+    "description": "ECO code B05 - Semi-Open Games"
+  },
+  "B07": {
+    "name": "Pirc Defense",
+    "variation": "",
+    "moves": [],
+    "description": "ECO code B07 - Semi-Open Games"
+  },
+  "B08": {
+    "name": "Pirc, Classical",
+    "variation": "",
+    "moves": [],
+    "description": "ECO code B08 - Semi-Open Games"
+  },
+  "B09": {
+    "name": "Pirc, Austrian Attack",
+    "variation": "",
+    "moves": [],
+    "description": "ECO code B09 - Semi-Open Games"
+  },
+  "B11": {
+    "name": "Caro-Kann, Two Knights, 3...Bg4",
+    "variation": "",
+    "moves": [],
+    "description": "ECO code B11 - Semi-Open Games"
+  },
+  "B14": {
+    "name": "Caro-Kann, Panov-Botvinnik Attack",
+    "variation": "",
+    "moves": [],
+    "description": "ECO code B14 - Semi-Open Games"
+  },
+  "B15": {
+    "name": "Caro-Kann Defense",
+    "variation": "",
+    "moves": [],
+    "description": "ECO code B15 - Semi-Open Games"
+  },
+  "B16": {
+    "name": "Caro-Kann, Bronstein-Larsen Variation",
+    "variation": "",
+    "moves": [],
+    "description": "ECO code B16 - Semi-Open Games"
+  },
+  "B17": {
+    "name": "Caro-Kann, Steinitz Variation",
+    "variation": "",
+    "moves": [],
+    "description": "ECO code B17 - Semi-Open Games"
+  },
+  "B19": {
+    "name": "Caro-Kann, Classical",
+    "variation": "",
+    "moves": [],
+    "description": "ECO code B19 - Semi-Open Games"
+  },
+  "B21": {
+    "name": "Sicilian, Grand Prix Attack",
+    "variation": "",
+    "moves": [],
+    "description": "ECO code B21 - Semi-Open Games"
+  },
+  "B24": {
+    "name": "Sicilian, Closed",
+    "variation": "",
+    "moves": [],
+    "description": "ECO code B24 - Semi-Open Games"
+  },
+  "B25": {
+    "name": "Sicilian, Closed",
+    "variation": "",
+    "moves": [],
+    "description": "ECO code B25 - Semi-Open Games"
+  },
+  "B26": {
+    "name": "Sicilian, Closed, 6.Be3",
+    "variation": "",
+    "moves": [],
+    "description": "ECO code B26 - Semi-Open Games"
+  },
+  "B27": {
+    "name": "Sicilian Defense",
+    "variation": "",
+    "moves": [],
+    "description": "ECO code B27 - Semi-Open Games"
+  },
+  "B28": {
+    "name": "Sicilian, O'Kelly Variation",
+    "variation": "",
+    "moves": [],
+    "description": "ECO code B28 - Semi-Open Games"
+  },
+  "B29": {
+    "name": "Sicilian, Nimzovich-Rubinstein",
+    "variation": "",
+    "moves": [],
+    "description": "ECO code B29 - Semi-Open Games"
+  },
+  "B32": {
+    "name": "Sicilian Defense",
+    "variation": "",
+    "moves": [],
+    "description": "ECO code B32 - Semi-Open Games"
+  },
+  "B34": {
+    "name": "Sicilian, Accelerated Fianchetto",
+    "variation": "",
+    "moves": [],
+    "description": "ECO code B34 - Semi-Open Games"
+  },
+  "B35": {
+    "name": "Sicilian, Accelerated Fianchetto, Modern Variation",
+    "variation": "",
+    "moves": [],
+    "description": "ECO code B35 - Semi-Open Games"
+  },
+  "B36": {
+    "name": "Sicilian, Accelerated Fianchetto",
+    "variation": "",
+    "moves": [],
+    "description": "ECO code B36 - Semi-Open Games"
+  },
+  "B37": {
+    "name": "Sicilian, Accelerated Fianchetto",
+    "variation": "",
+    "moves": [],
+    "description": "ECO code B37 - Semi-Open Games"
+  },
+  "B38": {
+    "name": "Sicilian, Accelerated Fianchetto, Maroczy Bind",
+    "variation": "",
+    "moves": [],
+    "description": "ECO code B38 - Semi-Open Games"
+  },
+  "B39": {
+    "name": "Sicilian, Accelerated Fianchetto, Breyer Variation",
+    "variation": "",
+    "moves": [],
+    "description": "ECO code B39 - Semi-Open Games"
+  },
+  "B42": {
+    "name": "Sicilian, Kan Variation",
+    "variation": "",
+    "moves": [],
+    "description": "ECO code B42 - Semi-Open Games"
+  },
+  "B43": {
+    "name": "Sicilian, Kan, 5.Nc3",
+    "variation": "",
+    "moves": [],
+    "description": "ECO code B43 - Semi-Open Games"
+  },
+  "B44": {
+    "name": "Sicilian Defense",
+    "variation": "",
+    "moves": [],
+    "description": "ECO code B44 - Semi-Open Games"
+  },
+  "B46": {
+    "name": "Sicilian, Taimanov Variation",
+    "variation": "",
+    "moves": [],
+    "description": "ECO code B46 - Semi-Open Games"
+  },
+  "B47": {
+    "name": "Sicilian, Taimanov Variation",
+    "variation": "",
+    "moves": [],
+    "description": "ECO code B47 - Semi-Open Games"
+  },
+  "B48": {
+    "name": "Sicilian, Taimanov Variation",
+    "variation": "",
+    "moves": [],
+    "description": "ECO code B48 - Semi-Open Games"
+  },
+  "B49": {
+    "name": "Sicilian, Taimanov Variation",
+    "variation": "",
+    "moves": [],
+    "description": "ECO code B49 - Semi-Open Games"
+  },
+  "B51": {
+    "name": "Sicilian, Canal-Sokolsky Attack",
+    "variation": "",
+    "moves": [],
+    "description": "ECO code B51 - Semi-Open Games"
+  },
+  "B52": {
+    "name": "Sicilian, Canal-Sokolsky Attack",
+    "variation": "",
+    "moves": [],
+    "description": "ECO code B52 - Semi-Open Games"
+  },
+  "B53": {
+    "name": "Sicilian Defense",
+    "variation": "",
+    "moves": [],
+    "description": "ECO code B53 - Semi-Open Games"
+  },
+  "B54": {
+    "name": "Sicilian Defense",
+    "variation": "",
+    "moves": [],
+    "description": "ECO code B54 - Semi-Open Games"
+  },
+  "B55": {
+    "name": "Sicilian, Prins Variation, Venice Attack",
+    "variation": "",
+    "moves": [],
+    "description": "ECO code B55 - Semi-Open Games"
+  },
+  "B56": {
+    "name": "Sicilian Defense",
+    "variation": "",
+    "moves": [],
+    "description": "ECO code B56 - Semi-Open Games"
+  },
+  "B57": {
+    "name": "Sicilian Defense",
+    "variation": "",
+    "moves": [],
+    "description": "ECO code B57 - Semi-Open Games"
+  },
+  "B58": {
+    "name": "Sicilian Defense",
+    "variation": "",
+    "moves": [],
+    "description": "ECO code B58 - Semi-Open Games"
+  },
+  "B59": {
+    "name": "Sicilian, Boleslavsky Variation",
+    "variation": "",
+    "moves": [],
+    "description": "ECO code B59 - Semi-Open Games"
+  },
+  "B61": {
+    "name": "Sicilian, Richter-Rauzer, Larsen Variation",
+    "variation": "",
+    "moves": [],
+    "description": "ECO code B61 - Semi-Open Games"
+  },
+  "B62": {
+    "name": "Sicilian, Richter-Rauzer",
+    "variation": "",
+    "moves": [],
+    "description": "ECO code B62 - Semi-Open Games"
+  },
+  "B63": {
+    "name": "Sicilian, Richter-Rauzer Attack",
+    "variation": "",
+    "moves": [],
+    "description": "ECO code B63 - Semi-Open Games"
+  },
+  "B64": {
+    "name": "Sicilian, Richter-Rauzer Attack",
+    "variation": "",
+    "moves": [],
+    "description": "ECO code B64 - Semi-Open Games"
+  },
+  "B65": {
+    "name": "Sicilian, Richter-Rauzer Attack, 7...Be7 Defense",
+    "variation": "",
+    "moves": [],
+    "description": "ECO code B65 - Semi-Open Games"
+  },
+  "B66": {
+    "name": "Sicilian, Richter-Rauzer Attack, 7...a6",
+    "variation": "",
+    "moves": [],
+    "description": "ECO code B66 - Semi-Open Games"
+  },
+  "B67": {
+    "name": "Sicilian, Richter-Rauzer Attack, 7...a6, 8...Bd7",
+    "variation": "",
+    "moves": [],
+    "description": "ECO code B67 - Semi-Open Games"
+  },
+  "B68": {
+    "name": "Sicilian, Richter-Rauzer Attack, 7...a6, 9...Be7",
+    "variation": "",
+    "moves": [],
+    "description": "ECO code B68 - Semi-Open Games"
+  },
+  "B69": {
+    "name": "Sicilian, Richter-Rauzer Attack, 7...a6, 11.Bxf6",
+    "variation": "",
+    "moves": [],
+    "description": "ECO code B69 - Semi-Open Games"
+  },
+  "B71": {
+    "name": "Sicilian, Dragon, Levenfish Variation",
+    "variation": "",
+    "moves": [],
+    "description": "ECO code B71 - Semi-Open Games"
+  },
+  "B72": {
+    "name": "Sicilian, Dragon Variation",
+    "variation": "",
+    "moves": [],
+    "description": "ECO code B72 - Semi-Open Games"
+  },
+  "B73": {
+    "name": "Sicilian, Dragon, Classical",
+    "variation": "",
+    "moves": [],
+    "description": "ECO code B73 - Semi-Open Games"
+  },
+  "B74": {
+    "name": "Sicilian, Dragon, Classical",
+    "variation": "",
+    "moves": [],
+    "description": "ECO code B74 - Semi-Open Games"
+  },
+  "B76": {
+    "name": "Sicilian, Dragon, Yugoslav Attack",
+    "variation": "",
+    "moves": [],
+    "description": "ECO code B76 - Semi-Open Games"
+  },
+  "B77": {
+    "name": "Sicilian, Dragon, Yugoslav Attack",
+    "variation": "",
+    "moves": [],
+    "description": "ECO code B77 - Semi-Open Games"
+  },
+  "B78": {
+    "name": "Sicilian, Dragon, Yugoslav Attack, 10.O-O-O",
+    "variation": "",
+    "moves": [],
+    "description": "ECO code B78 - Semi-Open Games"
+  },
+  "B79": {
+    "name": "Sicilian, Dragon, Yugoslav Attack, 12.h4",
+    "variation": "",
+    "moves": [],
+    "description": "ECO code B79 - Semi-Open Games"
+  },
+  "B81": {
+    "name": "Sicilian, Scheveningen, Keres Attack",
+    "variation": "",
+    "moves": [],
+    "description": "ECO code B81 - Semi-Open Games"
+  },
+  "B82": {
+    "name": "Sicilian, Scheveningen Variation",
+    "variation": "",
+    "moves": [],
+    "description": "ECO code B82 - Semi-Open Games"
+  },
+  "B83": {
+    "name": "Sicilian Defense",
+    "variation": "",
+    "moves": [],
+    "description": "ECO code B83 - Semi-Open Games"
+  },
+  "B84": {
+    "name": "Sicilian, Scheveningen Variation",
+    "variation": "",
+    "moves": [],
+    "description": "ECO code B84 - Semi-Open Games"
+  },
+  "B85": {
+    "name": "Sicilian, Scheveningen, Classical",
+    "variation": "",
+    "moves": [],
+    "description": "ECO code B85 - Semi-Open Games"
+  },
+  "B86": {
+    "name": "Sicilian, Sozin Attack",
+    "variation": "",
+    "moves": [],
+    "description": "ECO code B86 - Semi-Open Games"
+  },
+  "B87": {
+    "name": "Sicilian, Sozin with ...a6 and ...b5",
+    "variation": "",
+    "moves": [],
+    "description": "ECO code B87 - Semi-Open Games"
+  },
+  "B88": {
+    "name": "Sicilian, Sozin Attack",
+    "variation": "",
+    "moves": [],
+    "description": "ECO code B88 - Semi-Open Games"
+  },
+  "B89": {
+    "name": "Sicilian Defense",
+    "variation": "",
+    "moves": [],
+    "description": "ECO code B89 - Semi-Open Games"
+  },
+  "B91": {
+    "name": "Sicilian, Najdorf, 6.B3",
+    "variation": "",
+    "moves": [],
+    "description": "ECO code B91 - Semi-Open Games"
+  },
+  "B93": {
+    "name": "Sicilian, Najdorf, 6.f4",
+    "variation": "",
+    "moves": [],
+    "description": "ECO code B93 - Semi-Open Games"
+  },
+  "B95": {
+    "name": "Sicilian, Najdorf, 6.Bg5, 7...Nbd7",
+    "variation": "",
+    "moves": [],
+    "description": "ECO code B95 - Semi-Open Games"
+  },
+  "B96": {
+    "name": "Sicilian, Najdorf, 6.Bg5, 7...e6",
+    "variation": "",
+    "moves": [],
+    "description": "ECO code B96 - Semi-Open Games"
+  },
+  "B97": {
+    "name": "Sicilian, Najdorf, 6.Bg5, 7...e6 8.f4",
+    "variation": "",
+    "moves": [],
+    "description": "ECO code B97 - Semi-Open Games"
+  },
+  "B98": {
+    "name": "Sicilian, Najdorf, 6.Bg5, 7...e6 8.f4 Qb6",
+    "variation": "",
+    "moves": [],
+    "description": "ECO code B98 - Semi-Open Games"
+  },
+  "B99": {
+    "name": "Sicilian, Najdorf, 6.Bg5, 7...e6 8.f4 Qb6 9.Qf3",
+    "variation": "",
+    "moves": [],
+    "description": "ECO code B99 - Semi-Open Games"
+  },
+  "C01": {
+    "name": "French, Exchange Variation",
+    "variation": "",
+    "moves": [],
+    "description": "ECO code C01 - Open Games"
+  },
+  "C04": {
+    "name": "French, Tarrasch, Guimard Variation",
+    "variation": "",
+    "moves": [],
+    "description": "ECO code C04 - Open Games"
+  },
+  "C05": {
+    "name": "French, Tarrasch, Closed Variation",
+    "variation": "",
+    "moves": [],
+    "description": "ECO code C05 - Open Games"
+  },
+  "C06": {
+    "name": "French, Tarrasch",
+    "variation": "",
+    "moves": [],
+    "description": "ECO code C06 - Open Games"
+  },
+  "C07": {
+    "name": "French, Tarrasch",
+    "variation": "",
+    "moves": [],
+    "description": "ECO code C07 - Open Games"
+  },
+  "C08": {
+    "name": "French, Tarrasch, Open Variation",
+    "variation": "",
+    "moves": [],
+    "description": "ECO code C08 - Open Games"
+  },
+  "C09": {
+    "name": "French, Tarrasch, Open Variation",
+    "variation": "",
+    "moves": [],
+    "description": "ECO code C09 - Open Games"
+  },
+  "C11": {
+    "name": "French, Burn Variation",
+    "variation": "",
+    "moves": [],
+    "description": "ECO code C11 - Open Games"
+  },
+  "C12": {
+    "name": "French, MacCutcheon Variation",
+    "variation": "",
+    "moves": [],
+    "description": "ECO code C12 - Open Games"
+  },
+  "C13": {
+    "name": "French, Classical Variation",
+    "variation": "",
+    "moves": [],
+    "description": "ECO code C13 - Open Games"
+  },
+  "C14": {
+    "name": "French, Classical Variation",
+    "variation": "",
+    "moves": [],
+    "description": "ECO code C14 - Open Games"
+  },
+  "C16": {
+    "name": "French, Winawer Variation",
+    "variation": "",
+    "moves": [],
+    "description": "ECO code C16 - Open Games"
+  },
+  "C17": {
+    "name": "French, Winawer, Advance Variation",
+    "variation": "",
+    "moves": [],
+    "description": "ECO code C17 - Open Games"
+  },
+  "C18": {
+    "name": "French, Winawer Variation",
+    "variation": "",
+    "moves": [],
+    "description": "ECO code C18 - Open Games"
+  },
+  "C19": {
+    "name": "French, Winawer, Advance Variation",
+    "variation": "",
+    "moves": [],
+    "description": "ECO code C19 - Open Games"
+  },
+  "C22": {
+    "name": "Center Game",
+    "variation": "",
+    "moves": [],
+    "description": "ECO code C22 - Open Games"
+  },
+  "C24": {
+    "name": "Bishop's Opening, Berlin Defense",
+    "variation": "",
+    "moves": [],
+    "description": "ECO code C24 - Open Games"
+  },
+  "C26": {
+    "name": "Vienna Game",
+    "variation": "",
+    "moves": [],
+    "description": "ECO code C26 - Open Games"
+  },
+  "C27": {
+    "name": "Vienna Game",
+    "variation": "",
+    "moves": [],
+    "description": "ECO code C27 - Open Games"
+  },
+  "C28": {
+    "name": "Vienna Game",
+    "variation": "",
+    "moves": [],
+    "description": "ECO code C28 - Open Games"
+  },
+  "C29": {
+    "name": "Vienna Gambit",
+    "variation": "",
+    "moves": [],
+    "description": "ECO code C29 - Open Games"
+  },
+  "C31": {
+    "name": "King's Gambit Declined, Falkbeer Counter Gambit",
+    "variation": "",
+    "moves": [],
+    "description": "ECO code C31 - Open Games"
+  },
+  "C32": {
+    "name": "King's Gambit Declined, Falkbeer Counter Gambit",
+    "variation": "",
+    "moves": [],
+    "description": "ECO code C32 - Open Games"
+  },
+  "C34": {
+    "name": "King's Gambit Accepted",
+    "variation": "",
+    "moves": [],
+    "description": "ECO code C34 - Open Games"
+  },
+  "C35": {
+    "name": "King's Gambit Accepted, Cunningham Defense",
+    "variation": "",
+    "moves": [],
+    "description": "ECO code C35 - Open Games"
+  },
+  "C36": {
+    "name": "King's Gambit Accepted, Abbazia Defense",
+    "variation": "",
+    "moves": [],
+    "description": "ECO code C36 - Open Games"
+  },
+  "C37": {
+    "name": "King's Gambit Accepted",
+    "variation": "",
+    "moves": [],
+    "description": "ECO code C37 - Open Games"
+  },
+  "C38": {
+    "name": "King's Gambit Accepted",
+    "variation": "",
+    "moves": [],
+    "description": "ECO code C38 - Open Games"
+  },
+  "C39": {
+    "name": "King's Gambit Accepted, Allgaier Gambit",
+    "variation": "",
+    "moves": [],
+    "description": "ECO code C39 - Open Games"
+  },
+  "C43": {
+    "name": "Petrov, Modern Attack",
+    "variation": "",
+    "moves": [],
+    "description": "ECO code C43 - Open Games"
+  },
+  "C45": {
+    "name": "Scotch Game",
+    "variation": "",
+    "moves": [],
+    "description": "ECO code C45 - Open Games"
+  },
+  "C48": {
+    "name": "Four Knights' Game",
+    "variation": "",
+    "moves": [],
+    "description": "ECO code C48 - Open Games"
+  },
+  "C49": {
+    "name": "Four Knights' Game",
+    "variation": "",
+    "moves": [],
+    "description": "ECO code C49 - Open Games"
+  },
+  "C52": {
+    "name": "Evans Gambit",
+    "variation": "",
+    "moves": [],
+    "description": "ECO code C52 - Open Games"
+  },
+  "C53": {
+    "name": "Giuoco Piano",
+    "variation": "",
+    "moves": [],
+    "description": "ECO code C53 - Open Games"
+  },
+  "C54": {
+    "name": "Giuoco Piano",
+    "variation": "",
+    "moves": [],
+    "description": "ECO code C54 - Open Games"
+  },
+  "C56": {
+    "name": "Two Knights' Defense",
+    "variation": "",
+    "moves": [],
+    "description": "ECO code C56 - Open Games"
+  },
+  "C58": {
+    "name": "Two Knights' Defense",
+    "variation": "",
+    "moves": [],
+    "description": "ECO code C58 - Open Games"
+  },
+  "C59": {
+    "name": "Two Knights' Defense",
+    "variation": "",
+    "moves": [],
+    "description": "ECO code C59 - Open Games"
+  },
+  "C61": {
+    "name": "Ruy Lopez, Bird Defense",
+    "variation": "",
+    "moves": [],
+    "description": "ECO code C61 - Open Games"
+  },
+  "C62": {
+    "name": "Ruy Lopez, Steinitz Defense",
+    "variation": "",
+    "moves": [],
+    "description": "ECO code C62 - Open Games"
+  },
+  "C63": {
+    "name": "Ruy Lopez, Schliemann Defense",
+    "variation": "",
+    "moves": [],
+    "description": "ECO code C63 - Open Games"
+  },
+  "C66": {
+    "name": "Ruy Lopez, Berlin Defense, 4.O-O",
+    "variation": "",
+    "moves": [],
+    "description": "ECO code C66 - Open Games"
+  },
+  "C69": {
+    "name": "Ruy Lopez, Exchange Variation, 5.O-O",
+    "variation": "",
+    "moves": [],
+    "description": "ECO code C69 - Open Games"
+  },
+  "C70": {
+    "name": "Ruy Lopez",
+    "variation": "",
+    "moves": [],
+    "description": "ECO code C70 - Open Games"
+  },
+  "C72": {
+    "name": "Ruy Lopez, Modern Steinitz Defense",
+    "variation": "",
+    "moves": [],
+    "description": "ECO code C72 - Open Games"
+  },
+  "C73": {
+    "name": "Ruy Lopez, Modern Steinitz Defense",
+    "variation": "",
+    "moves": [],
+    "description": "ECO code C73 - Open Games"
+  },
+  "C74": {
+    "name": "Ruy Lopez, Modern Steinitz Defense",
+    "variation": "",
+    "moves": [],
+    "description": "ECO code C74 - Open Games"
+  },
+  "C76": {
+    "name": "Ruy Lopez, Modern Steinitz Defense",
+    "variation": "",
+    "moves": [],
+    "description": "ECO code C76 - Open Games"
+  },
+  "C79": {
+    "name": "Ruy Lopez, Steinitz Defense Deferred",
+    "variation": "",
+    "moves": [],
+    "description": "ECO code C79 - Open Games"
+  },
+  "C80": {
+    "name": "Ruy Lopez, Open Variation",
+    "variation": "",
+    "moves": [],
+    "description": "ECO code C80 - Open Games"
+  },
+  "C81": {
+    "name": "Ruy Lopez, Open, Howell Attack",
+    "variation": "",
+    "moves": [],
+    "description": "ECO code C81 - Open Games"
+  },
+  "C82": {
+    "name": "Ruy Lopez, Open, Nyezhmetdinov Variation",
+    "variation": "",
+    "moves": [],
+    "description": "ECO code C82 - Open Games"
+  },
+  "C83": {
+    "name": "Ruy Lopez, Open Variation",
+    "variation": "",
+    "moves": [],
+    "description": "ECO code C83 - Open Games"
+  },
+  "C85": {
+    "name": "Ruy Lopez, Exchange Variation Deferred",
+    "variation": "",
+    "moves": [],
+    "description": "ECO code C85 - Open Games"
+  },
+  "C86": {
+    "name": "Ruy Lopez, Worrall Attack",
+    "variation": "",
+    "moves": [],
+    "description": "ECO code C86 - Open Games"
+  },
+  "C87": {
+    "name": "Ruy Lopez, Closed, Averbakh Variation",
+    "variation": "",
+    "moves": [],
+    "description": "ECO code C87 - Open Games"
+  },
+  "C90": {
+    "name": "Ruy Lopez, Closed, 7...d6",
+    "variation": "",
+    "moves": [],
+    "description": "ECO code C90 - Open Games"
+  },
+  "C91": {
+    "name": "Ruy Lopez, Closed, 8.d4",
+    "variation": "",
+    "moves": [],
+    "description": "ECO code C91 - Open Games"
+  },
+  "C93": {
+    "name": "Ruy Lopez, Closed, Smyslov Defense",
+    "variation": "",
+    "moves": [],
+    "description": "ECO code C93 - Open Games"
+  },
+  "C94": {
+    "name": "Ruy Lopez, Closed, Breyer Defense",
+    "variation": "",
+    "moves": [],
+    "description": "ECO code C94 - Open Games"
+  },
+  "C96": {
+    "name": "Ruy Lopez, Closed, 8...Na5",
+    "variation": "",
+    "moves": [],
+    "description": "ECO code C96 - Open Games"
+  },
+  "C98": {
+    "name": "Ruy Lopez, Closed, Chigorin Variation",
+    "variation": "",
+    "moves": [],
+    "description": "ECO code C98 - Open Games"
+  },
+  "D01": {
+    "name": "Veresov Attack",
+    "variation": "",
+    "moves": [],
+    "description": "ECO code D01 - Closed & Semi-Closed Games"
+  },
+  "D03": {
+    "name": "Torre Attack",
+    "variation": "",
+    "moves": [],
+    "description": "ECO code D03 - Closed & Semi-Closed Games"
+  },
+  "D04": {
+    "name": "Queen's Pawn Game",
+    "variation": "",
+    "moves": [],
+    "description": "ECO code D04 - Closed & Semi-Closed Games"
+  },
+  "D05": {
+    "name": "Colle System",
+    "variation": "",
+    "moves": [],
+    "description": "ECO code D05 - Closed & Semi-Closed Games"
+  },
+  "D09": {
+    "name": "Queen's Gambit Declined, Albin Counter Gambit",
+    "variation": "",
+    "moves": [],
+    "description": "ECO code D09 - Closed & Semi-Closed Games"
+  },
+  "D11": {
+    "name": "Queen's Gambit Declined, Slav Defense",
+    "variation": "",
+    "moves": [],
+    "description": "ECO code D11 - Closed & Semi-Closed Games"
+  },
+  "D12": {
+    "name": "Queen's Gambit Declined, Slav Defense",
+    "variation": "",
+    "moves": [],
+    "description": "ECO code D12 - Closed & Semi-Closed Games"
+  },
+  "D13": {
+    "name": "Queen's Gambit Declined, Slav, Exchange Variation",
+    "variation": "",
+    "moves": [],
+    "description": "ECO code D13 - Closed & Semi-Closed Games"
+  },
+  "D14": {
+    "name": "Queen's Gambit Declined, Slav, Exchange Variation",
+    "variation": "",
+    "moves": [],
+    "description": "ECO code D14 - Closed & Semi-Closed Games"
+  },
+  "D16": {
+    "name": "Queen's Gambit Declined, Slav, 4.e3 a6",
+    "variation": "",
+    "moves": [],
+    "description": "ECO code D16 - Closed & Semi-Closed Games"
+  },
+  "D18": {
+    "name": "Queen's Gambit Declined, Slav, Dutch Variation",
+    "variation": "",
+    "moves": [],
+    "description": "ECO code D18 - Closed & Semi-Closed Games"
+  },
+  "D19": {
+    "name": "Queen's Gambit Declined, Slav, Dutch Variation",
+    "variation": "",
+    "moves": [],
+    "description": "ECO code D19 - Closed & Semi-Closed Games"
+  },
+  "D21": {
+    "name": "Queen's Gambit Accepted",
+    "variation": "",
+    "moves": [],
+    "description": "ECO code D21 - Closed & Semi-Closed Games"
+  },
+  "D22": {
+    "name": "Queen's Gambit Accepted, 3...e5",
+    "variation": "",
+    "moves": [],
+    "description": "ECO code D22 - Closed & Semi-Closed Games"
+  },
+  "D23": {
+    "name": "Queen's Gambit Accepted",
+    "variation": "",
+    "moves": [],
+    "description": "ECO code D23 - Closed & Semi-Closed Games"
+  },
+  "D24": {
+    "name": "Queen's Gambit Accepted",
+    "variation": "",
+    "moves": [],
+    "description": "ECO code D24 - Closed & Semi-Closed Games"
+  },
+  "D25": {
+    "name": "Queen's Gambit Accepted, 3.e3",
+    "variation": "",
+    "moves": [],
+    "description": "ECO code D25 - Closed & Semi-Closed Games"
+  },
+  "D26": {
+    "name": "Queen's Gambit Accepted, Classical Variation",
+    "variation": "",
+    "moves": [],
+    "description": "ECO code D26 - Closed & Semi-Closed Games"
+  },
+  "D28": {
+    "name": "Queen's Gambit Accepted, Classical, 7.e3",
+    "variation": "",
+    "moves": [],
+    "description": "ECO code D28 - Closed & Semi-Closed Games"
+  },
+  "D29": {
+    "name": "Queen's Gambit Accepted, Classical, 7.e3",
+    "variation": "",
+    "moves": [],
+    "description": "ECO code D29 - Closed & Semi-Closed Games"
+  },
+  "D31": {
+    "name": "Queen's Gambit Declined, Semi-Slav",
+    "variation": "",
+    "moves": [],
+    "description": "ECO code D31 - Closed & Semi-Closed Games"
+  },
+  "D32": {
+    "name": "Queen's Gambit Declined, Tarrasch Defense",
+    "variation": "",
+    "moves": [],
+    "description": "ECO code D32 - Closed & Semi-Closed Games"
+  },
+  "D33": {
+    "name": "Queen's Gambit Declined, Tarrasch Defense",
+    "variation": "",
+    "moves": [],
+    "description": "ECO code D33 - Closed & Semi-Closed Games"
+  },
+  "D34": {
+    "name": "Queen's Gambit Declined, Tarrasch Defense",
+    "variation": "",
+    "moves": [],
+    "description": "ECO code D34 - Closed & Semi-Closed Games"
+  },
+  "D36": {
+    "name": "Queen's Gambit Declined, Exchange Variation",
+    "variation": "",
+    "moves": [],
+    "description": "ECO code D36 - Closed & Semi-Closed Games"
+  },
+  "D38": {
+    "name": "Queen's Gambit Declined, Ragozin Variation",
+    "variation": "",
+    "moves": [],
+    "description": "ECO code D38 - Closed & Semi-Closed Games"
+  },
+  "D39": {
+    "name": "Queen's Gambit Declined, Ragozin Variation",
+    "variation": "",
+    "moves": [],
+    "description": "ECO code D39 - Closed & Semi-Closed Games"
+  },
+  "D40": {
+    "name": "Queen's Gambit Declined, Semi-Tarrasch Defense",
+    "variation": "",
+    "moves": [],
+    "description": "ECO code D40 - Closed & Semi-Closed Games"
+  },
+  "D41": {
+    "name": "Queen's Gambit Declined, Semi-Tarrasch Defense",
+    "variation": "",
+    "moves": [],
+    "description": "ECO code D41 - Closed & Semi-Closed Games"
+  },
+  "D42": {
+    "name": "Queen's Gambit Declined, Semi-Tarrasch Defense",
+    "variation": "",
+    "moves": [],
+    "description": "ECO code D42 - Closed & Semi-Closed Games"
+  },
+  "D43": {
+    "name": "Queen's Gambit Declined, Semi-Slav Defense",
+    "variation": "",
+    "moves": [],
+    "description": "ECO code D43 - Closed & Semi-Closed Games"
+  },
+  "D45": {
+    "name": "Queen's Gambit Declined, Semi-Slav Defense",
+    "variation": "",
+    "moves": [],
+    "description": "ECO code D45 - Closed & Semi-Closed Games"
+  },
+  "D47": {
+    "name": "Queen's Gambit Declined, Semi-Slav, Meran Variation",
+    "variation": "",
+    "moves": [],
+    "description": "ECO code D47 - Closed & Semi-Closed Games"
+  },
+  "D48": {
+    "name": "Queen's Gambit Declined, Semi-Slav, Meran Variation",
+    "variation": "",
+    "moves": [],
+    "description": "ECO code D48 - Closed & Semi-Closed Games"
+  },
+  "D49": {
+    "name": "Queen's Gambit Declined, Semi-Slav, Meran, 11.Bxc4",
+    "variation": "",
+    "moves": [],
+    "description": "ECO code D49 - Closed & Semi-Closed Games"
+  },
+  "D51": {
+    "name": "Queen's Gambit Declined, 4.Bg5",
+    "variation": "",
+    "moves": [],
+    "description": "ECO code D51 - Closed & Semi-Closed Games"
+  },
+  "D52": {
+    "name": "Queen's Gambit Declined, 4.Bg5",
+    "variation": "",
+    "moves": [],
+    "description": "ECO code D52 - Closed & Semi-Closed Games"
+  },
+  "D53": {
+    "name": "Queen's Gambit Declined, 4.Bg5",
+    "variation": "",
+    "moves": [],
+    "description": "ECO code D53 - Closed & Semi-Closed Games"
+  },
+  "D54": {
+    "name": "Queen's Gambit Declined, Anti-Neo-Orthodox Variation",
+    "variation": "",
+    "moves": [],
+    "description": "ECO code D54 - Closed & Semi-Closed Games"
+  },
+  "D56": {
+    "name": "Queen's Gambit Declined, Lasker Defense",
+    "variation": "",
+    "moves": [],
+    "description": "ECO code D56 - Closed & Semi-Closed Games"
+  },
+  "D57": {
+    "name": "Queen's Gambit Declined, Lasker Defense",
+    "variation": "",
+    "moves": [],
+    "description": "ECO code D57 - Closed & Semi-Closed Games"
+  },
+  "D59": {
+    "name": "Queen's Gambit Declined, Tartakower Defense",
+    "variation": "",
+    "moves": [],
+    "description": "ECO code D59 - Closed & Semi-Closed Games"
+  },
+  "D60": {
+    "name": "Queen's Gambit Declined, Orthodox Defense",
+    "variation": "",
+    "moves": [],
+    "description": "ECO code D60 - Closed & Semi-Closed Games"
+  },
+  "D61": {
+    "name": "Queen's Gambit Declined, Orthodox Defense",
+    "variation": "",
+    "moves": [],
+    "description": "ECO code D61 - Closed & Semi-Closed Games"
+  },
+  "D62": {
+    "name": "Queen's Gambit Declined, Orthodox Defense, 7.Bc4 c6",
+    "variation": "",
+    "moves": [],
+    "description": "ECO code D62 - Closed & Semi-Closed Games"
+  },
+  "D63": {
+    "name": "Queen's Gambit Declined, Orthodox Defense",
+    "variation": "",
+    "moves": [],
+    "description": "ECO code D63 - Closed & Semi-Closed Games"
+  },
+  "D64": {
+    "name": "Queen's Gambit Declined, Orthodox Defense, Rubinstein Variation",
+    "variation": "",
+    "moves": [],
+    "description": "ECO code D64 - Closed & Semi-Closed Games"
+  },
+  "D65": {
+    "name": "Queen's Gambit Declined, Orthodox Defense, Rubinstein Variation",
+    "variation": "",
+    "moves": [],
+    "description": "ECO code D65 - Closed & Semi-Closed Games"
+  },
+  "D67": {
+    "name": "Queen's Gambit Declined, Orthodox Defense",
+    "variation": "",
+    "moves": [],
+    "description": "ECO code D67 - Closed & Semi-Closed Games"
+  },
+  "D68": {
+    "name": "Queen's Gambit Declined, Orthodox Defense",
+    "variation": "",
+    "moves": [],
+    "description": "ECO code D68 - Closed & Semi-Closed Games"
+  },
+  "D69": {
+    "name": "Queen's Gambit Declined, Orthodox Defense",
+    "variation": "",
+    "moves": [],
+    "description": "ECO code D69 - Closed & Semi-Closed Games"
+  },
+  "D71": {
+    "name": "Gruenfeld Defense, 5.Nc2",
+    "variation": "",
+    "moves": [],
+    "description": "ECO code D71 - Closed & Semi-Closed Games"
+  },
+  "D73": {
+    "name": "Gruenfeld Defense, 5.Ne2",
+    "variation": "",
+    "moves": [],
+    "description": "ECO code D73 - Closed & Semi-Closed Games"
+  },
+  "D74": {
+    "name": "Gruenfeld Defense, 5.Ne2, 6.Be3",
+    "variation": "",
+    "moves": [],
+    "description": "ECO code D74 - Closed & Semi-Closed Games"
+  },
+  "D76": {
+    "name": "Gruenfeld Defense, 5.Ne2, 6.Be3, 7...c5",
+    "variation": "",
+    "moves": [],
+    "description": "ECO code D76 - Closed & Semi-Closed Games"
+  },
+  "D77": {
+    "name": "Gruenfeld Defense, 5.Nf3",
+    "variation": "",
+    "moves": [],
+    "description": "ECO code D77 - Closed & Semi-Closed Games"
+  },
+  "D79": {
+    "name": "Gruenfeld Defense, 5.Nf3, 6.Be3, 7...c5",
+    "variation": "",
+    "moves": [],
+    "description": "ECO code D79 - Closed & Semi-Closed Games"
+  },
+  "D81": {
+    "name": "Gruenfeld Defense, Russian Variation",
+    "variation": "",
+    "moves": [],
+    "description": "ECO code D81 - Closed & Semi-Closed Games"
+  },
+  "D83": {
+    "name": "Gruenfeld Defense, 4.Bf4",
+    "variation": "",
+    "moves": [],
+    "description": "ECO code D83 - Closed & Semi-Closed Games"
+  },
+  "D84": {
+    "name": "Gruenfeld Defense, 4.Bf4, Exchange Variation",
+    "variation": "",
+    "moves": [],
+    "description": "ECO code D84 - Closed & Semi-Closed Games"
+  },
+  "D86": {
+    "name": "Gruenfeld Defense, Exchange Variation",
+    "variation": "",
+    "moves": [],
+    "description": "ECO code D86 - Closed & Semi-Closed Games"
+  },
+  "D87": {
+    "name": "Gruenfeld Defense, Exchange Variation",
+    "variation": "",
+    "moves": [],
+    "description": "ECO code D87 - Closed & Semi-Closed Games"
+  },
+  "D88": {
+    "name": "Gruenfeld Defense, Exchange Variation",
+    "variation": "",
+    "moves": [],
+    "description": "ECO code D88 - Closed & Semi-Closed Games"
+  },
+  "D89": {
+    "name": "Gruenfeld Defense, Exchange Variation",
+    "variation": "",
+    "moves": [],
+    "description": "ECO code D89 - Closed & Semi-Closed Games"
+  },
+  "D91": {
+    "name": "Gruenfeld Defense, 5.Bg5",
+    "variation": "",
+    "moves": [],
+    "description": "ECO code D91 - Closed & Semi-Closed Games"
+  },
+  "D93": {
+    "name": "Gruenfeld Defense, 5.Bf4, 6.e3",
+    "variation": "",
+    "moves": [],
+    "description": "ECO code D93 - Closed & Semi-Closed Games"
+  },
+  "D95": {
+    "name": "Gruenfeld Defense, 5.e3",
+    "variation": "",
+    "moves": [],
+    "description": "ECO code D95 - Closed & Semi-Closed Games"
+  },
+  "D96": {
+    "name": "Gruenfeld Defense, 5.e3, Russian Variation",
+    "variation": "",
+    "moves": [],
+    "description": "ECO code D96 - Closed & Semi-Closed Games"
+  },
+  "D98": {
+    "name": "Gruenfeld Defense, 5.e3, Smyslov Variation",
+    "variation": "",
+    "moves": [],
+    "description": "ECO code D98 - Closed & Semi-Closed Games"
+  },
+  "D99": {
+    "name": "Gruenfeld Defense, 5.e3, Smyslov Variation",
+    "variation": "",
+    "moves": [],
+    "description": "ECO code D99 - Closed & Semi-Closed Games"
+  },
+  "E02": {
+    "name": "Catalan, Open Variation",
+    "variation": "",
+    "moves": [],
+    "description": "ECO code E02 - Indian Defenses"
+  },
+  "E03": {
+    "name": "Catalan, Open Variation",
+    "variation": "",
+    "moves": [],
+    "description": "ECO code E03 - Indian Defenses"
+  },
+  "E04": {
+    "name": "Catalan, Open Variation, 5.Nf3",
+    "variation": "",
+    "moves": [],
+    "description": "ECO code E04 - Indian Defenses"
+  },
+  "E07": {
+    "name": "Catalan, Closed Variation",
+    "variation": "",
+    "moves": [],
+    "description": "ECO code E07 - Indian Defenses"
+  },
+  "E08": {
+    "name": "Catalan, Closed Variation",
+    "variation": "",
+    "moves": [],
+    "description": "ECO code E08 - Indian Defenses"
+  },
+  "E09": {
+    "name": "Catalan, Closed Variation",
+    "variation": "",
+    "moves": [],
+    "description": "ECO code E09 - Indian Defenses"
+  },
+  "E13": {
+    "name": "Queen's Indian Defense",
+    "variation": "",
+    "moves": [],
+    "description": "ECO code E13 - Indian Defenses"
+  },
+  "E14": {
+    "name": "Queen's Indian Defense",
+    "variation": "",
+    "moves": [],
+    "description": "ECO code E14 - Indian Defenses"
+  },
+  "E16": {
+    "name": "Queen's Indian Defense",
+    "variation": "",
+    "moves": [],
+    "description": "ECO code E16 - Indian Defenses"
+  },
+  "E17": {
+    "name": "Queen's Indian Defense",
+    "variation": "",
+    "moves": [],
+    "description": "ECO code E17 - Indian Defenses"
+  },
+  "E18": {
+    "name": "Queen's Indian Defense",
+    "variation": "",
+    "moves": [],
+    "description": "ECO code E18 - Indian Defenses"
+  },
+  "E19": {
+    "name": "Queen's Indian Defense",
+    "variation": "",
+    "moves": [],
+    "description": "ECO code E19 - Indian Defenses"
+  },
+  "E22": {
+    "name": "Nimzo-Indian, Spielmann Variation",
+    "variation": "",
+    "moves": [],
+    "description": "ECO code E22 - Indian Defenses"
+  },
+  "E23": {
+    "name": "Nimzo-Indian Defense",
+    "variation": "",
+    "moves": [],
+    "description": "ECO code E23 - Indian Defenses"
+  },
+  "E25": {
+    "name": "Nimzo-Indian, Samisch Variation",
+    "variation": "",
+    "moves": [],
+    "description": "ECO code E25 - Indian Defenses"
+  },
+  "E27": {
+    "name": "Nimzo-Indian, Samisch Variation",
+    "variation": "",
+    "moves": [],
+    "description": "ECO code E27 - Indian Defenses"
+  },
+  "E28": {
+    "name": "Nimzo-Indian, Samisch Variation",
+    "variation": "",
+    "moves": [],
+    "description": "ECO code E28 - Indian Defenses"
+  },
+  "E29": {
+    "name": "Nimzo-Indian, Samisch Variation",
+    "variation": "",
+    "moves": [],
+    "description": "ECO code E29 - Indian Defenses"
+  },
+  "E31": {
+    "name": "Nimzo-Indian, Leningrad Variation",
+    "variation": "",
+    "moves": [],
+    "description": "ECO code E31 - Indian Defenses"
+  },
+  "E33": {
+    "name": "Nimzo-Indian, Classical Variation",
+    "variation": "",
+    "moves": [],
+    "description": "ECO code E33 - Indian Defenses"
+  },
+  "E34": {
+    "name": "Nimzo-Indian, Classical, Noa Variation",
+    "variation": "",
+    "moves": [],
+    "description": "ECO code E34 - Indian Defenses"
+  },
+  "E35": {
+    "name": "Nimzo-Indian, Classical, Noa Variation",
+    "variation": "",
+    "moves": [],
+    "description": "ECO code E35 - Indian Defenses"
+  },
+  "E36": {
+    "name": "Nimzo-Indian, Classical Variation",
+    "variation": "",
+    "moves": [],
+    "description": "ECO code E36 - Indian Defenses"
+  },
+  "E37": {
+    "name": "Nimzo-Indian, Classical Variation",
+    "variation": "",
+    "moves": [],
+    "description": "ECO code E37 - Indian Defenses"
+  },
+  "E38": {
+    "name": "Nimzo-Indian, Classical Variation",
+    "variation": "",
+    "moves": [],
+    "description": "ECO code E38 - Indian Defenses"
+  },
+  "E40": {
+    "name": "Nimzo-Indian Defense",
+    "variation": "",
+    "moves": [],
+    "description": "ECO code E40 - Indian Defenses"
+  },
+  "E42": {
+    "name": "Nimzo-Indian, 4.e3 c5, 5.Ne2",
+    "variation": "",
+    "moves": [],
+    "description": "ECO code E42 - Indian Defenses"
+  },
+  "E44": {
+    "name": "Nimzo-Indian, Fischer Variation",
+    "variation": "",
+    "moves": [],
+    "description": "ECO code E44 - Indian Defenses"
+  },
+  "E45": {
+    "name": "Nimzo-Indian, 4.e3 c5, 5.Ne2",
+    "variation": "",
+    "moves": [],
+    "description": "ECO code E45 - Indian Defenses"
+  },
+  "E47": {
+    "name": "Nimzo-Indian, 4.e3 O-O",
+    "variation": "",
+    "moves": [],
+    "description": "ECO code E47 - Indian Defenses"
+  },
+  "E48": {
+    "name": "Nimzo-Indian, 4.e3 O-O, 5.Bd3",
+    "variation": "",
+    "moves": [],
+    "description": "ECO code E48 - Indian Defenses"
+  },
+  "E49": {
+    "name": "Nimzo-Indian, 4.e3 O-O, 5.Bd3 d5",
+    "variation": "",
+    "moves": [],
+    "description": "ECO code E49 - Indian Defenses"
+  },
+  "E51": {
+    "name": "Nimzo-Indian, 4.e3 e5, 5.Nf3",
+    "variation": "",
+    "moves": [],
+    "description": "ECO code E51 - Indian Defenses"
+  },
+  "E52": {
+    "name": "Nimzo-Indian, 4.e3 e5, 5.Nf3 Bb4+",
+    "variation": "",
+    "moves": [],
+    "description": "ECO code E52 - Indian Defenses"
+  },
+  "E53": {
+    "name": "Nimzo-Indian, 4.e3 e5, 5.Nf3 dxc4",
+    "variation": "",
+    "moves": [],
+    "description": "ECO code E53 - Indian Defenses"
+  },
+  "E55": {
+    "name": "Nimzo-Indian, 4.e3 e5, 5.Nf3 dxc4, Gligoric System",
+    "variation": "",
+    "moves": [],
+    "description": "ECO code E55 - Indian Defenses"
+  },
+  "E56": {
+    "name": "Nimzo-Indian, 4.e3 e5, 5.Nf3 dxc4",
+    "variation": "",
+    "moves": [],
+    "description": "ECO code E56 - Indian Defenses"
+  },
+  "E57": {
+    "name": "Nimzo-Indian, 4.e3 e5, 5.Nf3 dxc4",
+    "variation": "",
+    "moves": [],
+    "description": "ECO code E57 - Indian Defenses"
+  },
+  "E58": {
+    "name": "Nimzo-Indian, 4.e3 e5, 5.Nf3 dxc4",
+    "variation": "",
+    "moves": [],
+    "description": "ECO code E58 - Indian Defenses"
+  },
+  "E59": {
+    "name": "Nimzo-Indian, 4.e3 e5, 5.Nf3 dxc4",
+    "variation": "",
+    "moves": [],
+    "description": "ECO code E59 - Indian Defenses"
+  },
+  "E63": {
+    "name": "King's Indian, Fianchetto, Panno Variation",
+    "variation": "",
+    "moves": [],
+    "description": "ECO code E63 - Indian Defenses"
+  },
+  "E64": {
+    "name": "King's Indian, Fianchetto, Yugoslav Variation",
+    "variation": "",
+    "moves": [],
+    "description": "ECO code E64 - Indian Defenses"
+  },
+  "E65": {
+    "name": "King's Indian, Fianchetto, Yugoslav, 7.O-O",
+    "variation": "",
+    "moves": [],
+    "description": "ECO code E65 - Indian Defenses"
+  },
+  "E67": {
+    "name": "King's Indian, Fianchetto, Yugoslav Variation",
+    "variation": "",
+    "moves": [],
+    "description": "ECO code E67 - Indian Defenses"
+  },
+  "E68": {
+    "name": "King's Indian, Fianchetto, Yugoslav Variation",
+    "variation": "",
+    "moves": [],
+    "description": "ECO code E68 - Indian Defenses"
+  },
+  "E69": {
+    "name": "King's Indian, Fianchetto, Yugoslav Variation",
+    "variation": "",
+    "moves": [],
+    "description": "ECO code E69 - Indian Defenses"
+  },
+  "E72": {
+    "name": "King's Indian, 5.g3",
+    "variation": "",
+    "moves": [],
+    "description": "ECO code E72 - Indian Defenses"
+  },
+  "E74": {
+    "name": "King's Indian, Averbakh, 6...c5",
+    "variation": "",
+    "moves": [],
+    "description": "ECO code E74 - Indian Defenses"
+  },
+  "E76": {
+    "name": "King's Indian, Four Pawns Attack",
+    "variation": "",
+    "moves": [],
+    "description": "ECO code E76 - Indian Defenses"
+  },
+  "E78": {
+    "name": "King's Indian, Four Pawns Attack, 7.Be2",
+    "variation": "",
+    "moves": [],
+    "description": "ECO code E78 - Indian Defenses"
+  },
+  "E79": {
+    "name": "King's Indian, Four Pawns Attack, 7.Be2 c5",
+    "variation": "",
+    "moves": [],
+    "description": "ECO code E79 - Indian Defenses"
+  },
+  "E82": {
+    "name": "King's Indian, Samisch, 5...b6",
+    "variation": "",
+    "moves": [],
+    "description": "ECO code E82 - Indian Defenses"
+  },
+  "E84": {
+    "name": "King's Indian, Samisch, 5...Nc6, Main Line",
+    "variation": "",
+    "moves": [],
+    "description": "ECO code E84 - Indian Defenses"
+  },
+  "E86": {
+    "name": "King's Indian, Samisch, 5...d5, 7.e5",
+    "variation": "",
+    "moves": [],
+    "description": "ECO code E86 - Indian Defenses"
+  },
+  "E87": {
+    "name": "King's Indian, Samisch, 5...d5, 7.e5",
+    "variation": "",
+    "moves": [],
+    "description": "ECO code E87 - Indian Defenses"
+  },
+  "E88": {
+    "name": "King's Indian, Samisch, 5...d5, 7.e5 c6",
+    "variation": "",
+    "moves": [],
+    "description": "ECO code E88 - Indian Defenses"
+  },
+  "E89": {
+    "name": "King's Indian, Samisch, 5...d5, 7.e5 c6, Main Line",
+    "variation": "",
+    "moves": [],
+    "description": "ECO code E89 - Indian Defenses"
+  },
+  "E93": {
+    "name": "King's Indian, Petrosian Variation",
+    "variation": "",
+    "moves": [],
+    "description": "ECO code E93 - Indian Defenses"
+  },
+  "E95": {
+    "name": "King's Indian, Orthodox Variation",
+    "variation": "",
+    "moves": [],
+    "description": "ECO code E95 - Indian Defenses"
+  },
+  "E96": {
+    "name": "King's Indian, Orthodox Variation",
+    "variation": "",
+    "moves": [],
+    "description": "ECO code E96 - Indian Defenses"
+  },
+  "E98": {
+    "name": "King's Indian, Orthodox, Aronin-Taimanov Attack",
+    "variation": "",
+    "moves": [],
+    "description": "ECO code E98 - Indian Defenses"
+  }
+}

@@ -1,0 +1,218 @@
+[Event "FIDE World Championship 2024"]
+[Site "Singapore"]
+[Date "2024.11.25"]
+[Round "1"]
+[White "Liren, Ding"]
+[Black "Gukesh, D"]
+[Result "0-1"]
+[WhiteElo "2728"]
+[BlackElo "2783"]
+[ECO "D02"]
+[Opening "Queen's Pawn Opening"]
+
+1. d4 d5 2. Nf3 Nf6 3. e3 c5 4. c4 e6 5. dxc5 Bxc5 6. a3 Nc6 7. b4 Bd6 8. Bb2 O-O
+9. Nbd2 a5 10. b5 Ne7 11. Bd3 Ng6 12. O-O Bd7 13. Qc2 Ne4 14. Nxe4 dxe4 15. Bxe4
+Bc8 16. Bxg6 hxg6 17. Nd2 f5 18. Nc4 Be7 19. Rad1 Qe8 20. Ba3 Bxa3 21. Rxa3 Kh7
+22. Qb3 Rb8 23. Rda1 b6 24. Nd2 Qf7 25. Ne2 Rfc8 26. Nf4 Nd4 27. Nxd4 Bxd4
+28. Rd1 Bb2 29. Rd2 Bf6 30. Rda2 Qe7 31. g3 Rc7 32. Kg2 Rbc8 33. h4 Khg8 34. R1a3
+Qc5 35. Qa2 Qc1 36. Rd2 R1c5 37. Rd1 Qc3 38. Rb1 Qc7 39. Rdd3 Rc1 40. Rxc1 Qxc1
+41. Qd2 Qxd2+ 42. Nxd2 Bxd4 43. Nc4 Rxc4 44. Rxc4 Bxc4 45. Kf1 Kh7 46. Ke2 Kg8
+47. Kd2 Kf7 48. Kc3 Ke7 49. Kb4 Kd6 50. Ka5 Kc5 0-1
+
+[Event "Tata Steel Masters 2025"]
+[Site "Wijk aan Zee"]
+[Date "2025.01.18"]
+[Round "4"]
+[White "Carlsen, M"]
+[Black "Praggnanandhaa, R"]
+[Result "1-0"]
+[WhiteElo "2831"]
+[BlackElo "2741"]
+[ECO "B20"]
+[Opening "Sicilian Defense"]
+
+1. e4 c5 2. d4 cxd4 3. Nf3 Nc6 4. Nxd4 e5 5. Nb5 d6 6. c4 Be7 7. N1c3 a6 8. Na3
+Nf6 9. Be2 O-O 10. O-O b6 11. Be3 Bb7 12. Qd3 Ne8 13. Rfd1 Nd4 14. Nc2 Nxe2+
+15. Qxe2 Qc7 16. Nd5 Bxd5 17. cxd5 Rfc8 18. Nc3 Nf6 19. a4 Rac8 20. Rab1 Qd8
+21. b4 Ne8 22. Rdc1 Qd7 23. Qd3 g6 24. Na2 Nf6 25. Nc3 Nh5 26. Nd5 Bxd5 27. Qxd5
+Qxd5 28. Rxd5 Nf4 29. Rd2 Rc4 30. b5 axb5 31. axb5 R4c5 32. b6 Rxc1 33. Rxc1 Rc8
+34. b7 Rb8 35. Bd4 exd4 36. Rb1 d5 37. exd5 Nxd5 38. Nxd4 Nc3 39. Rb3 Na4
+40. Rb4 Nc5 41. Nc6 1-0
+
+[Event "FIDE World Championship 2024"]
+[Site "Singapore"]
+[Date "2024.12.08"]
+[Round "9"]
+[White "Gukesh, D"]
+[Black "Liren, Ding"]
+[Result "1-0"]
+[WhiteElo "2783"]
+[BlackElo "2728"]
+[ECO "C42"]
+[Opening "Petrov's Defense"]
+
+1. e4 e5 2. Nf3 Nf6 3. Nxe5 d6 4. Nf3 Nxe4 5. Nc3 Nxc3 6. dxc3 Be7 7. Be3 O-O
+8. Qd2 Nd7 9. O-O-O Nc5 10. Bd3 Ne6 11. Kb1 Bd7 12. h4 b6 13. h5 Bc6 14. g4 Bb7
+15. Rh3 d5 16. Rg1 Qd6 17. Bf4 Qf8 18. Nd4 Nxd4 19. Bxd4 Bc5 20. Bxc5 bxc5
+21. Qe3 Rab8 22. b3 Rfd8 23. Rdg3 d4 24. cxd4 cxd4 25. Qe5 Qxe5 26. Bxe6+ fxe6
+27. Rxe5 d3 28. cxd3 Rxd3 29. Rxe6 Rxd4 30. Rxe7 Rf4 31. Rf3 Rxf3 32. Rxf7 Rf8
+33. Rxf8+ Kxf8 34. Kc2 Kg8 35. Kd3 Kf7 36. Ke3 Ke6 37. f4 h6 38. Kd4 Kd6 39. a4
+Kc6 40. a5 Kb5 41. Kc3 Kxa5 42. Kb3 Kb5 43. Kc3 Kc6 44. Kd4 Kd6 45. f5 Ke7
+46. Ke5 Kf7 47. Kd6 Kf8 48. Kd7 Kf7 49. Kd6 Kf8 50. Kc7 1-0
+
+[Event "Candidates 2024"]
+[Site "Toronto"]
+[Date "2024.04.12"]
+[Round "3"]
+[White "Nepomniachtchi, I"]
+[Black "Caruana, F"]
+[Result "1/2-1/2"]
+[WhiteElo "2759"]
+[BlackElo "2802"]
+[ECO "A45"]
+[Opening "Trompowsky Attack"]
+
+1. d4 Nf6 2. Bg5 Ne4 3. h3 d5 4. f3 Nxg5 5. hxg4 Bf5 6. e3 e6 7. c4 Be7 8. Nc3
+Nc6 9. cxd5 exd5 10. Nge2 Bg6 11. Ng3 h5 12. gxh5 Bxh5 13. Bd3 Bxd3 14. Qxd3
+Qd6 15. O-O O-O 16. Ne2 a6 17. Rfc1 Re8 18. Nf4 Bf8 19. a3 b5 20. Rc2 Bb7
+21. Rac1 Rac8 22. Nd3 Ne7 23. Nfe5 Nf5 24. Bf2 c6 25. Qe2 Rxc2 26. Rxc2 Rc8
+27. Rxc8+ Bxc8 28. Nc5 Bb7 29. Nxb7 Qxb7 30. Nd3 Qd7 31. Nf4 Qd6 32. Nh3 Nd6
+33. Nf4 Nf5 34. Nh3 Nd6 35. Nf4 Nf5 1/2-1/2
+
+[Event "Tata Steel Masters 2025"]
+[Site "Wijk aan Zee"]
+[Date "2025.01.25"]
+[Round "7"]
+[White "Erigaisi, A"]
+[Black "Abdusattorov, N"]
+[Result "1-0"]
+[WhiteElo "2798"]
+[BlackElo "2746"]
+[ECO "E60"]
+[Opening "King's Indian Defense"]
+
+1. d4 Nf6 2. c4 g6 3. g3 Bg7 4. Bg2 O-O 5. Nc3 d6 6. Nf3 a6 7. O-O Nc6 8. d5
+Na5 9. Nd2 c5 10. Qc2 e5 11. b3 Ng4 12. e4 f5 13. exf5 Bxf5 14. Nb5 axb5 15. Bxb5+
+Kh8 16. h3 Nf6 17. Ba3 Rf7 18. Rfe1 Nd7 19. Bc1 Qf8 20. Nd3 Bh6 21. Nf4 Bxf4
+22. gxf4 Rg8 23. Kh2 Nf6 24. Reg1 Rxg1 25. Rxg1 Bxd3 26. Qxd3 Rxf5 27. Bc3 Qf7
+28. f3 Nh5 29. Qe3 Nf6 30. Bd2 Nd7 31. f5 Nf8 32. fxg6 hxg6 33. Qg5 Qg7
+34. Qxg7+ Kxg7 35. Bc3+ Kg8 36. Bxa5 Rxf3 37. Bc7 Rf7 38. a4 Nd8 39. Bd2 Nf6
+40. a5 Nd7 41. Bc3 Nf6 42. Bb2 Nd7 43. Bc3 Nf8 44. Bd2 Nd7 45. Bc3 Nf8 46. Bb2
+Rf5 47. a6 bxa6 48. Bxa6 Rf7 49. Bc8 Rf5 50. Bb7 Rf7 51. Ba6 Rf5 52. Bc4 Rf7
+53. Bd2 Nd7 54. Bb5 Nf6 55. Bc6 Rf5 56. Bd3 Rf7 57. Be4 Rf5 58. Bc3 Rf7 59. Kg3
+Nd7 60. Bd5 Rf5 61. Bc4 Rf7 62. Bd3 Rf5 63. Bc2 Rf7 64. Bb3 Rf5 65. Ba4 Rf7
+66. Bb5 Rf5 67. Ba6 Rf7 68. Bc8 Rf5 69. Bb7 1-0
+
+[Event "FIDE World Championship 2024"]
+[Site "Singapore"]
+[Date "2024.11.27"]
+[Round "3"]
+[White "Liren, Ding"]
+[Black "Gukesh, D"]
+[Result "1/2-1/2"]
+[WhiteElo "2728"]
+[BlackElo "2783"]
+[ECO "D38"]
+[Opening "Queen's Gambit Declined: Ragozin Variation"]
+
+1. d4 Nf6 2. c4 e6 3. Nf3 d5 4. Nc3 Bb4 5. cxd5 exd5 6. Bg5 h6 7. Bh4 c5 8. dxc5
+d4 9. Bxf6 Qxf6 10. Nd5 Qd6 11. Nc7+ Kf8 12. Nxa8 Bxc5 13. e3 dxe3 14. Bxe3 Bxe3
+15. fxe3 Qxe3+ 16. Kf1 Nd7 17. Nc7 Re8 18. Qd5 Qxd5 19. Nxd5 Nb6 20. Nxb6 axb6
+21. Rd1 b5 22. b3 Bb7 23. Nc3 Bc6 24. Nd5 Kg8 25. Rd2 Rad8 26. Rhd1 Rxd2
+27. Rxd2 Rd8 28. Rxd8+ Bxd8 29. Nd4 Ba5 30. Nc6 Bc3 31. a4 bxa4 32. bxa4 b5
+33. axb5 Bxb5 34. Nd4 Bd7 35. Nc2 Bc6 36. Ne1 Kg7 37. Nd3 Bb5 38. Nc5 Bc4
+39. Nd7 Bd5 40. Nc5 Bc6 41. Nd3 Bd5 42. Nc5 Bc4 43. Nd7 Bd5 44. Nc5 Bc6
+45. Nd3 Bd5 46. Nc5 Bc4 1/2-1/2
+
+[Event "Olympiad 2024"]
+[Site "Budapest"]
+[Date "2024.09.15"]
+[Round "5"]
+[White "So, W"]
+[Black "Keymer, V"]
+[Result "1-0"]
+[WhiteElo "2755"]
+[BlackElo "2725"]
+[ECO "B90"]
+[Opening "Sicilian Najdorf"]
+
+1. e4 c5 2. Nf3 d6 3. d4 cxd4 4. Nxd4 Nf6 5. Nc3 a6 6. Be3 e5 7. Nb3 Be6 8. f3
+Be7 9. g4 O-O 10. g5 b5 11. gxf6 Bxf6 12. Qd2 Nc6 13. O-O-O Nb4 14. Kb1 Rb8
+15. Bh3 d5 16. exd5 Bxd5 17. Nxd5 Qxd5 18. Bg5 Bxg5 19. Qxg5 Qxa2 20. Nd4 Rc8
+21. Nxe6 fxe6 22. Rd3 Rf5 23. Qe3 Rcf8 24. Rhd1 Nd5 25. Qe4 Nc3+ 26. bxc3 Qa1+
+27. Kc2 Qa4+ 28. Kb2 Qb5+ 29. Ka3 Qc6 30. Qxc6 bxc6 31. Rd8 Rf7 32. Rxf8+ Kxf8
+33. Rd1 Ke7 34. Rd6 Rb7 35. Rxc6 Rb3 36. cxb3 e4 37. Rc7+ Kd6 38. Rxg7 exf3
+39. Rg6+ Kc5 40. Rf6 e5 41. Rxf3 e4 42. Re3 Kb4 43. Rxe4+ Kxb3 44. Re3+ Kc4
+45. Re5 a5 46. Ra3 Kb4 47. Rb5+ Kc4 48. Rc5+ Kb3 49. Rc3+ Kb4 50. Rc1 a4
+51. Ra1 Kb3 52. Rxa4+ Kxa4 53. Kxa2 1-0
+
+[Event "Tata Steel Challengers 2025"]
+[Site "Wijk aan Zee"]
+[Date "2025.01.20"]
+[Round "5"]
+[White "Mishra, A"]
+[Black "Warmerdam, S"]
+[Result "0-1"]
+[WhiteElo "2612"]
+[BlackElo "2630"]
+[ECO "C67"]
+[Opening "Ruy Lopez: Berlin Defense"]
+
+1. e4 e5 2. Nf3 Nc6 3. Bb5 Nf6 4. O-O Nxe4 5. d4 Nd6 6. Bxc6 dxc6 7. dxe5 Nf5
+8. Qxd8+ Kxd8 9. Nc3 Bd7 10. b3 h6 11. Bb2 Be7 12. Rad1+ Ke8 13. Ne4 b6 14. Nd6+
+Bxd6 15. exd6 f6 16. Re1 Kf7 17. Nd4 Bd5 18. c4 Bb7 19. f3 Nd4 20. Nf5 Bc8
+21. Ng3 Ne6 22. Re3 c5 23. Nh5 Rh8 24. Nf4 Nxf4 25. Rxf4 g5 26. Rf2 Bd7 27. Re1
+Rhe8 28. Kf1 Bc6 29. Ke2 Re6 30. Bd4 cxd4 31. Rxd4 Rae8 32. Rf5 R6e7 33. h4 gxh4
+34. Rxh5 Rg7 35. Rh3 Rg2+ 36. Kf1 Rge2 37. Rxe2 Rxe2 38. Rh4 Re3 39. Kg2 Rxg3+
+40. Kf2 Rh3 41. Rh1 Kg6 42. Rh4 Kg5 43. Rg4+ Kf5 44. Rg3 Rh2+ 45. Ke3 Bxg2
+46. Rxh2 Bxh2 47. Kd3 Kg4 48. Ke4 Kxf3 49. Kf5 Ke2 50. Kg6 Kd2 51. Kxh6 Kxc2
+52. Kg5 Kb2 53. Kf4 Kxa2 54. Ke4 Kb1 55. Kd5 c4 56. bxc4 Bxc4 57. Kc5 Be6
+58. Kb4 Kc2 0-1
+
+[Event "Grand Chess Tour 2024"]
+[Site "Saint Louis"]
+[Date "2024.08.15"]
+[Round "2"]
+[White "Firouzja, A"]
+[Black "Dominguez, L"]
+[Result "1-0"]
+[WhiteElo "2795"]
+[BlackElo "2746"]
+[ECO "A13"]
+[Opening "English Opening"]
+
+1. c4 e6 2. g3 d5 3. Bg2 Nf6 4. Nf3 d4 5. O-O Bd6 6. d3 c5 7. Bg5 h6 8. Bxf6
+Qxf6 9. Nbd2 Nc6 10. Rc1 e5 11. a3 Be6 12. b4 b6 13. Nb3 a5 14. bxa5 Rxa5 15. Nfd2
+O-O 16. Nb1 Nd8 17. N1d2 Ne6 18. Bf1 Bc7 19. Nc4 Nxc4 20. dxc4 Qe7 21. Be2 Raa8
+22. O-O Rfd8 23. Qc2 Qf6 24. Rfd1 g5 25. Nd2 f5 26. f3 Rf8 27. e4 f4 28. gxf4
+gxf4 29. Nf3 Rf7 30. Nh4 Rdf8 31. Nf5 Bxf5 32. exf5 Qh4 33. Rcd2 Rg7 34. Kh1
+Rfg8 35. Rg1 Rxg1+ 36. Kxg1 Qe7 37. Kf2 Qf6 38. Qd1 Rg8 39. Rg2 Rxg2+ 40. Kxg2
+Qg5+ 41. Kh2 Bd8 42. Qd2 Qf6 43. Qe2 Bb7 44. Bf1 Qg7 45. Qg4 Qf6 46. Qe6+ Kh8
+47. Qg6 Qg7 48. Qe6 Qf6 49. Qg6 Qg7 50. Qe6 Qf6 51. Qd7 Qg7 52. Qd6 Be4
+53. Qxe5 Qg2+ 54. Kh1 Qxh3+ 55. Kg1 Qg4+ 56. Kh2 Bxf5 57. Qe8+ Kh7 58. Qe4+
+Kg8 59. Qxg4+ hxg4 60. Kg1 Kh7 61. Kf2 Kh6 62. Ke2 Kg5 63. Kd2 Kf5 64. Kc2 Ke5
+65. Kb3 Bd7 66. Ka4 Kd6 67. Kb5 Kc7 68. Ka6 1-0
+
+[Event "FIDE World Cup 2023"]
+[Site "Baku"]
+[Date "2023.08.06"]
+[Round "2.1"]
+[White "Carlsen, M"]
+[Black "Hansen, E"]
+[Result "1-0"]
+[WhiteElo "2830"]
+[BlackElo "2632"]
+[ECO "D06"]
+[Opening "Queen's Pawn Game"]
+
+1. d4 d5 2. Bf4 Nf6 3. e3 c5 4. c3 Nc6 5. Nd2 e6 6. Ngf3 Bd6 7. Bg3 O-O 8. Bd3
+b6 9. Nh4 Bb7 10. Bxh7+ Kxh7 11. Nf5 exf5 12. Nf3 Re8 13. O-O Kg8 14. Re1 Be7
+15. Rc1 Qd6 16. e4 dxe4 17. Bxe4 fxe4 18. Rxe4 Bf6 19. Rg4 Bg5 20. Rg3 Rad8
+21. Qe2 Nd5 22. Ne5 Nxe5 23. dxe5 Qc7 24. Rf3 Bf4 25. Rxf4 Rxd1+ 26. Rxd1 Re7
+27. Rd7 Rxd7 28. Qxd7 Qxd7 29. Bxd7+ Kf8 30. Rxf5+ Ke8 31. Rf7 Bc8 32. Rxc7
+Bd7 33. Rb7 a5 34. b3 b5 35. c4 bxc4 36. bxc4 Ke7 37. a3 Ke6 38. g3 Ke5 39. Rb5+
+Kd4 40. Rxc5 Kxe5 41. c5 Be8 42. Rb5 Kd4 43. c6 Bxc6 44. Rb4+ Kc3 45. Rb3+ Kc4
+46. Rc3 Bd5 47. Rxc5+ Kb4 48. Rc7 Bb3 49. Rb7+ Kc3 50. Rb5 Kc2 51. Rxh5 Kd2
+52. Rf5 Ke3 53. h4 Bd5 54. h5 Ke4 55. Rf8 Ke5 56. Kg2 Ke6 57. Ra8 Bb3 58. h6 Ke7
+59. Ra7+ Kf6 60. Ra6 Ke5 61. Ra5+ Kd4 62. Rxa5 Kc4 63. Ra8 Bd5 64. h7 Kd4
+65. h8=Q 1-0

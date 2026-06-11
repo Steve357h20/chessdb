@@ -1,0 +1,144 @@
+@import './variables';
+
+@mixin flex-center {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+@mixin flex-between {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+@mixin flex-column {
+  display: flex;
+  flex-direction: column;
+}
+
+@mixin flex-column-center {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+@mixin text-ellipsis {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+@mixin text-ellipsis-lines($lines: 2) {
+  display: -webkit-box;
+  -webkit-line-clamp: $lines;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+@mixin scrollbar($width: 6px) {
+  &::-webkit-scrollbar {
+    width: $width;
+    height: $width;
+  }
+  &::-webkit-scrollbar-thumb {
+    background: var(--scrollbar-thumb);
+    border-radius: $width;
+  }
+  &::-webkit-scrollbar-track {
+    background: var(--scrollbar-track);
+  }
+}
+
+@mixin card($padding: 16px, $radius: $radius-medium, $shadow: $shadow-small) {
+  background: var(--card-bg);
+  border-radius: $radius;
+  box-shadow: var(--card-shadow);
+  padding: $padding;
+}
+
+@mixin responsive($breakpoint) {
+  @if $breakpoint == mobile {
+    @media (max-width: $breakpoint-mobile) { @content; }
+  } @else if $breakpoint == tablet {
+    @media (max-width: $breakpoint-tablet) { @content; }
+  } @else if $breakpoint == desktop {
+    @media (min-width: $breakpoint-tablet + 1px) { @content; }
+  } @else if $breakpoint == large {
+    @media (min-width: $breakpoint-desktop) { @content; }
+  }
+}
+
+@mixin mobile {
+  @media (max-width: $breakpoint-mobile) { @content; }
+}
+
+@mixin tablet {
+  @media (max-width: $breakpoint-tablet) { @content; }
+}
+
+@mixin desktop {
+  @media (min-width: $breakpoint-tablet + 1px) { @content; }
+}
+
+@mixin chess-square($is-light: true) {
+  @if $is-light {
+    background-color: $board-light;
+  } @else {
+    background-color: $board-dark;
+  }
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  user-select: none;
+}
+
+@mixin chess-board {
+  display: grid;
+  grid-template-columns: repeat(8, 1fr);
+  grid-template-rows: repeat(8, 1fr);
+  border: 2px solid var(--border-color);
+  border-radius: $radius-small;
+  overflow: hidden;
+  aspect-ratio: 1;
+}
+
+@mixin highlight-square($color) {
+  &::after {
+    content: '';
+    position: absolute;
+    inset: 0;
+    background: $color;
+    pointer-events: none;
+  }
+}
+
+@mixin legal-move-dot {
+  &::after {
+    content: '';
+    position: absolute;
+    width: 30%;
+    height: 30%;
+    border-radius: $radius-round;
+    background: $board-legal-move;
+    pointer-events: none;
+  }
+}
+
+@mixin legal-capture-ring {
+  &::after {
+    content: '';
+    position: absolute;
+    inset: 4px;
+    border-radius: $radius-round;
+    border: 4px solid $board-legal-capture;
+    pointer-events: none;
+  }
+}
+
+@mixin theme-dark {
+  [data-theme='dark'] & { @content; }
+}

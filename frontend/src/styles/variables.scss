@@ -1,0 +1,93 @@
+$color-primary: #1a237e;
+$color-primary-light: #3949ab;
+$color-primary-lighter: #5c6bc0;
+$color-primary-dark: #0d1642;
+
+$color-success: #4caf50;
+$color-success-light: #81c784;
+$color-success-dark: #388e3c;
+
+$color-warning: #ff9800;
+$color-warning-light: #ffb74d;
+$color-warning-dark: #f57c00;
+
+$color-error: #f44336;
+$color-error-light: #e57373;
+$color-error-dark: #d32f2f;
+
+$color-info: #2196f3;
+$color-info-light: #64b5f6;
+$color-info-dark: #1976d2;
+
+$color-text-primary: #303133;
+$color-text-regular: #606266;
+$color-text-secondary: #909399;
+$color-text-placeholder: #c0c4cc;
+
+$color-bg-primary: #ffffff;
+$color-bg-regular: #f5f7fa;
+$color-bg-secondary: #ecf5ff;
+$color-bg-dark: #1a1a2e;
+
+$color-border: #dcdfe6;
+$color-border-light: #e4e7ed;
+$color-border-lighter: #ebeef5;
+
+$board-light: #F0D9B5;
+$board-dark: #B58863;
+$board-highlight: rgba(255, 255, 0, 0.4);
+$board-last-move: rgba(155, 199, 0, 0.41);
+$board-selected: rgba(20, 85, 30, 0.5);
+$board-legal-move: rgba(0, 0, 0, 0.15);
+$board-legal-capture: rgba(0, 0, 0, 0.15);
+$board-check: rgba(255, 0, 0, 0.5);
+$board-arrow: rgba(0, 0, 0, 0.6);
+
+$move-brilliant: #38b764;
+$move-great: #5bba5f;
+$move-good: #82c784;
+$move-inaccuracy: #f7c631;
+$move-mistake: #e69d00;
+$move-blunder: #e02020;
+
+$eval-positive: #38b764;
+$eval-negative: #e02020;
+$eval-neutral: #909399;
+
+$size-header-height: 60px;
+$size-footer-height: 40px;
+$size-sidebar-width: 200px;
+$size-sidebar-collapsed-width: 0px;
+$size-board-min: 280px;
+$size-board-max: 600px;
+
+$radius-small: 4px;
+$radius-medium: 8px;
+$radius-large: 12px;
+$radius-round: 50%;
+
+$shadow-small: 0 1px 4px rgba(0, 0, 0, 0.08);
+$shadow-medium: 0 2px 12px rgba(0, 0, 0, 0.1);
+$shadow-large: 0 4px 20px rgba(0, 0, 0, 0.12);
+
+$font-size-xs: 12px;
+$font-size-sm: 13px;
+$font-size-base: 14px;
+$font-size-md: 16px;
+$font-size-lg: 18px;
+$font-size-xl: 20px;
+$font-size-xxl: 24px;
+
+$z-index-sidebar: 10;
+$z-index-header: 100;
+$z-index-drawer: 200;
+$z-index-modal: 300;
+$z-index-notification: 400;
+
+$breakpoint-mobile: 768px;
+$breakpoint-tablet: 992px;
+$breakpoint-desktop: 1200px;
+
+$transition-fast: 0.15s ease;
+$transition-normal: 0.3s ease;
+$transition-slow: 0.5s ease;

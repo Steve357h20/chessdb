@@ -1,0 +1,51 @@
+:root {
+  --bg-color: #ffffff;
+  --bg-color-secondary: #f5f7fa;
+  --bg-color-tertiary: #ecf5ff;
+  --text-color: #303133;
+  --text-color-regular: #606266;
+  --text-color-secondary: #909399;
+  --text-color-placeholder: #c0c4cc;
+  --border-color: #dcdfe6;
+  --border-color-light: #e4e7ed;
+  --border-color-lighter: #ebeef5;
+  --card-bg: #ffffff;
+  --card-shadow: 0 1px 4px rgba(0, 0, 0, 0.08);
+  --header-bg: #ffffff;
+  --sidebar-bg: #f5f7fa;
+  --hover-bg: #ecf5ff;
+  --active-bg: #d9ecff;
+  --tag-bg: #f4f4f5;
+  --table-stripe: #fafafa;
+  --input-bg: #ffffff;
+  --dialog-bg: #ffffff;
+  --overlay-bg: rgba(0, 0, 0, 0.5);
+  --scrollbar-thumb: #c0c4cc;
+  --scrollbar-track: #f5f7fa;
+}
+
+html.dark {
+  --bg-color: #141414;
+  --bg-color-secondary: #1d1d1d;
+  --bg-color-tertiary: #262626;
+  --text-color: #e5eaf3;
+  --text-color-regular: #cfd3dc;
+  --text-color-secondary: #a3a6ad;
+  --text-color-placeholder: #6c6e72;
+  --border-color: #4c4d4f;
+  --border-color-light: #414243;
+  --border-color-lighter: #363637;
+  --card-bg: #1d1d1d;
+  --card-shadow: 0 1px 4px rgba(0, 0, 0, 0.3);
+  --header-bg: #191919;
+  --sidebar-bg: #1d1d1d;
+  --hover-bg: #262626;
+  --active-bg: #2c2c2c;
+  --tag-bg: #2c2c2c;
+  --table-stripe: #1a1a1a;
+  --input-bg: #1d1d1d;
+  --dialog-bg: #1d1d1d;
+  --overlay-bg: rgba(0, 0, 0, 0.7);
+  --scrollbar-thumb: #4c4d4f;
+  --scrollbar-track: #1d1d1d;
+}

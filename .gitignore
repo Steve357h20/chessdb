@@ -1,0 +1,57 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.egg-info/
+*.egg/
+dist/
+build/
+.eggs/
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# Database
+*.db
+*.sqlite
+*.sqlite3
+
+# Environment variables
+.env
+!.env.example
+
+# Uploads
+uploads/
+
+# IDE
+.DS_Store
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# Node
+node_modules/
+frontend/dist/
+
+# Stockfish source & binaries
+backend/stockfish/stockfish/src/
+backend/stockfish/stockfish/wiki/
+backend/stockfish/stockfish/stockfish-*
+backend/stockfish/*.zip
+
+# Cleanup backup
+_cleanup_backup/
+
+# Logs
+*.log
+
+# Test artifacts
+.pytest_cache/
+.coverage
+htmlcov/
+
+# OS
+Thumbs.db
