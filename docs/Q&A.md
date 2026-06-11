@@ -135,22 +135,200 @@ function onChartClick(params) {
 
 ### 2.4 本项目使用的分析方法
 
-本项目**没有使用** K-Means 聚类、线性拟合等机器学习算法。使用的是**统计描述性分析方法**：
+本项目**没有使用** K-Means 聚类、线性拟合等机器学习算法。使用的是**统计描述性分析方法**，核心计算在**后端 SQL 聚合查询**中完成，前端仅负责可视化呈现。
 
-| 图表 | 分析方法 | 代码位置 |
-|------|----------|----------|
-| **胜率曲线** | 移动平均平滑（3点窗口） | `WinRateChart.vue` 第 38-48 行 |
-| **ELO vs 步数** | 分桶聚合（按 10 分一桶） | `Stats.vue` 第 131-155 行 |
-| **热力密度图** | 二维分箱统计（ELO×步数网格） | `Stats.vue` 第 198-260 行 |
-| **箱线图** | 五数概括（min/Q1/median/Q3/max） | `Stats.vue` 中 scatterChartOption |
-| **步数分布直方图** | 频率分布统计 | `Stats.vue` 中 histChartOption |
-| **开局胜率排行** | 分组聚合计算胜率 | `Stats.vue` 中 openingWinrateOption |
-| **开局使用分布** | 饼图/柱状图分类统计 | `Stats.vue` 中 openingCategoryOption |
+以下逐一详解每个图表的分析方法：
 
-**胜率曲线平滑算法详解**（`WinRateChart.vue` 第 38-48 行）：
+---
+
+#### 2.4.1 ELO vs 平均步数 — 折线图 + 散点图
+
+**分析方法：等宽分桶聚合（Equal-Width Binning + Group Aggregation）**
+
+**后端**：`backend/app/routes/games.py` 第 737-754 行
+
+```python
+# 将 ELO 均分按 10 分一桶分组
+avg_elo_expr = func.round((Game.white_elo + Game.black_elo) / 2.0 / 10) * 10
+
+query = db.session.query(
+    avg_elo_expr.label('avg_elo_bucket'),        # 分桶键
+    func.avg(Game.total_moves).label('avg_moves'), # 桶内平均步数
+    func.count(Game.id).label('game_count'),       # 桶内对局数
+).group_by(avg_elo_expr)
+```
+
+**原理**：
+1. 计算每局棋的 ELO 均分 = `(白方ELO + 黑方ELO) / 2`
+2. 将 ELO 均分按 10 分一桶离散化（如 2400-2409 → 2400）
+3. 对每个桶计算 `AVG(total_moves)` 和 `COUNT(id)`
+4. 前端用折线图展示趋势，散点图展示原始分布（点大小=对局数量）
+
+**散点图**（`Stats.vue` 第 355-410 行）：随机采样 5000 局，展示每局的 ELO 均分 vs 步数的原始分布，颜色映射 ELO 差距（`|白方ELO - 黑方ELO|`）。
+
+---
+
+#### 2.4.2 热力密度图 — ELO × 步数二维分布
+
+**分析方法：二维分箱统计（2D Histogram / Binning）**
+
+**后端**：`backend/app/routes/games.py` 第 778-791 行
+
+```python
+# ELO 按 50 分一格，步数按 10 步一格
+elo_bucket_50 = cast(cast(avg_elo / 50, Integer) * 50, Integer)
+move_bucket_10 = cast(cast(Game.total_moves / 10, Integer) * 10, Integer)
+
+density_rows = db.session.query(
+    elo_bucket_50.label('elo_b'),
+    move_bucket_10.label('move_b'),
+    func.count(Game.id).label('cnt'),
+).group_by(elo_bucket_50, move_bucket_10)
+```
+
+**原理**：
+1. 将二维空间（ELO × 步数）划分为网格（ELO 每 50 分一格，步数每 10 步一格）
+2. 统计每个网格内的对局数量 `COUNT(id)`
+3. 前端用热力图渲染：颜色深浅 = 对局密度（深蓝=多，浅绿=少）
+4. 这本质上是对二维联合分布的离散估计，类似二维直方图
+
+**前端**：`Stats.vue` 第 198-310 行 — ECharts `heatmap` 类型，`visualMap` 映射计数到颜色梯度。
+
+---
+
+#### 2.4.3 箱线图 — 步数分布的五数概括
+
+**分析方法：均值 ± 标准差 + 极值范围（Mean ± Std + Min/Max）**
+
+**后端**：`backend/app/routes/games.py` 第 794-822 行
+
+```python
+dist_rows = db.session.query(
+    elo_bucket_50.label('elo_b'),
+    func.count(Game.id).label('cnt'),
+    func.min(Game.total_moves).label('min_moves'),     # 最小值
+    func.max(Game.total_moves).label('max_moves'),     # 最大值
+    func.avg(Game.total_moves).label('mean_moves'),    # 均值
+    func.avg(Game.total_moves * Game.total_moves).label('mean_sq_moves'),  # 均方值
+).group_by(elo_bucket_50)
+
+# 方差 = E[X²] - (E[X])²  （利用方差的计算公式）
+variance = mean_sq - mean_val * mean_val
+std_val = (variance ** 0.5) if variance > 0 else 0
+```
+
+**原理**：
+1. 按 ELO 每 50 分一桶分组
+2. 对每桶计算：`MIN`（最小步数）、`MAX`（最大步数）、`AVG`（均值）
+3. **标准差的计算**：利用公式 `Var(X) = E[X²] - (E[X])²`，只需 SQL 聚合 `AVG(X)` 和 `AVG(X²)` 即可，无需加载原始数据到 Python
+4. 前端渲染为自定义箱线图：
+   - 外框（绿色）：极值范围 [min, max]
+   - 内框（蓝色）：均值 ± 标准差 [mean-std, mean+std]
+   - 横线（蓝色粗线）：均值
+   - 虚线（橙色）：各桶均值连线
+
+**注意**：本项目使用的是"均值±标准差"而非传统箱线图的"四分位数"（Q1/Q2/Q3），因为 SQL 计算四分位数需要窗口函数，实现更复杂。均值±标准差在数据近似正态分布时等价于约 68% 的数据范围。
+
+---
+
+#### 2.4.4 步数分布直方图
+
+**分析方法：一维频率分布统计（1D Histogram）**
+
+**前端**：`Stats.vue` 第 598-640 行
 
 ```javascript
-// 3点移动平均：每个点取前后各1个邻居的平均值
+// 前端对散点数据做分桶统计
+const bins = {}
+const step = 10
+for (const s of scatter.value) {
+  const bucket = Math.floor(s.total_moves / step) * step  // 每 10 步一桶
+  bins[bucket] = (bins[bucket] || 0) + 1
+}
+```
+
+**原理**：
+1. 将步数按 10 步一桶离散化（0-9, 10-19, 20-29, ...）
+2. 统计每个桶内的对局数量
+3. 用柱状图展示频率分布
+
+**与后端分桶的区别**：直方图的分桶在前端完成（基于已加载的 scatter 数据），而热力图的分桶在后端 SQL 完成（因为需要全量数据）。
+
+---
+
+#### 2.4.5 开局胜率排行 — 堆叠柱状图
+
+**分析方法：分组条件计数 + 百分比计算（Conditional Count + Percentage）**
+
+**后端**：`backend/app/routes/games.py` 第 835-870 行
+
+```python
+openings_query = db.session.query(
+    Game.eco_code,
+    func.count(Game.id).label('total'),
+    func.sum(case((Game.result == '1-0', 1), else_=0)).label('white_wins'),
+    func.sum(case((Game.result == '0-1', 1), else_=0)).label('black_wins'),
+    func.sum(case((Game.result == '1/2-1/2', 1), else_=0)).label('draws'),
+).group_by(Game.eco_code).order_by(func.count(Game.id).desc()).limit(50)
+
+# 胜率 = 该结果次数 / 总对局数 × 100
+'white_win_rate': round((r.white_wins or 0) / total * 100, 1)
+```
+
+**原理**：
+1. 按 `eco_code` 分组
+2. 使用 SQL `CASE WHEN` 条件表达式分别计数白胜/黑胜/和棋
+3. 计算百分比：`白胜率 = 白胜数 / 总数 × 100%`
+4. 前端用堆叠水平柱状图展示，每段代表一种结果的比例
+
+---
+
+#### 2.4.6 开局分类饼图
+
+**分析方法：分类频数统计（Category Frequency Count）**
+
+**后端**：`backend/app/routes/games.py` 第 872-890 行
+
+```python
+# 按 ECO 首字母（A/B/C/D/E）分组统计
+categories_query = db.session.query(
+    func.substr(Game.eco_code, 1, 1).label('category'),
+    func.count(Game.id).label('total'),
+).group_by(func.substr(Game.eco_code, 1, 1))
+```
+
+**原理**：ECO 编码首字母代表开局大类（A=不规则、B=半开放、C=开放、D=双兵、E=印度防御），按首字母分组计数即可得到各类开局的使用频率。
+
+---
+
+#### 2.4.7 开局-ELO 关系热力图
+
+**分析方法：二维交叉统计（Cross Tabulation / Contingency Table）**
+
+**后端**：`backend/app/routes/games.py` 第 894-920 行
+
+```python
+# 开局分类 × ELO桶（每500分一桶）
+elo_bucket_expr = cast(cast((Game.white_elo + Game.black_elo) / 2.0 / 500, Integer) * 500, Integer)
+
+elo_openings_query = db.session.query(
+    func.substr(Game.eco_code, 1, 1).label('category'),
+    elo_bucket_expr.label('elo_bucket'),
+    func.count(Game.id).label('total'),
+).group_by(func.substr(Game.eco_code, 1, 1), elo_bucket_expr)
+```
+
+**原理**：同时按开局分类和 ELO 桶两个维度分组，统计每个交叉组合的对局数，形成列联表（Contingency Table），用热力图可视化。
+
+---
+
+#### 2.4.8 胜率曲线 — 移动平均平滑
+
+**分析方法：3 点移动平均（3-Point Moving Average）**
+
+**前端**：`frontend/src/components/WinRateChart.vue` 第 38-48 行
+
+```javascript
 for (let i = 0; i < raw.length; i++) {
   const start = Math.max(0, i - 1)
   const end = Math.min(raw.length - 1, i + 1)
@@ -162,7 +340,25 @@ for (let i = 0; i < raw.length; i++) {
 }
 ```
 
-**ELO 分桶聚合**（`Stats.vue`）：后端 API 将对局按 ELO 每 10 分一组，计算每组的平均步数和对局数，前端用折线图+散点图展示 ELO 与步数的关系。
+**原理**：对原始胜率序列做 3 点窗口平滑，每个点取前后各 1 个邻居的平均值，消除单步波动噪声，使曲线更平滑。这是最简单的低通滤波器。
+
+---
+
+### 2.5 分析方法总结
+
+| 图表 | 分析方法 | 数学本质 | 计算位置 |
+|------|----------|----------|----------|
+| ELO vs 步数折线图 | 等宽分桶聚合 | `AVG(X) GROUP BY floor(X/10)*10` | 后端 SQL |
+| ELO vs 步数散点图 | 随机采样 | `SELECT ... ORDER BY RANDOM() LIMIT 5000` | 后端 SQL |
+| 热力密度图 | 二维分箱统计 | `COUNT(*) GROUP BY floor(ELO/50)*50, floor(Moves/10)*10` | 后端 SQL |
+| 箱线图 | 均值±标准差+极值 | `Var(X) = E[X²] - (E[X])²` | 后端 SQL |
+| 步数直方图 | 一维频率分布 | `COUNT(*) GROUP BY floor(Moves/10)*10` | 前端 JS |
+| 开局胜率排行 | 条件计数+百分比 | `SUM(CASE WHEN result='1-0' THEN 1 ELSE 0 END) / COUNT(*)` | 后端 SQL |
+| 开局分类饼图 | 分类频数统计 | `COUNT(*) GROUP BY SUBSTR(eco_code,1,1)` | 后端 SQL |
+| 开局-ELO热力图 | 二维交叉统计 | `COUNT(*) GROUP BY category, floor(ELO/500)*500` | 后端 SQL |
+| 胜率曲线 | 3点移动平均 | `Y[i] = (X[i-1] + X[i] + X[i+1]) / 3` | 前端 JS |
+
+**核心结论**：所有分析方法均为**描述性统计**（Descriptive Statistics），不涉及推断性统计或机器学习。计算主要由后端 SQL 聚合完成（`GROUP BY` + `AVG/COUNT/SUM/MIN/MAX`），前端仅做简单平滑和可视化渲染。
 
 ---
 
