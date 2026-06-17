@@ -1,0 +1,11 @@
+{
+  "buildCommand": "cd frontend && npm install && npm run build",
+  "outputDirectory": "frontend/dist",
+  "routes": [
+    { "src": "/api/(.*)", "dest": "${BACKEND_URL}/api/$1" },
+    { "src": "/admin/(.*)", "dest": "${BACKEND_URL}/admin/$1" },
+    { "src": "/apidocs/(.*)", "dest": "${BACKEND_URL}/apidocs/$1" },
+    { "src": "/flasgger/(.*)", "dest": "${BACKEND_URL}/flasgger/$1" },
+    { "src": "/apispec(.*)", "dest": "${BACKEND_URL}/apispec$1" }
+  ]
+}

@@ -44,11 +44,14 @@ RUN mkdir -p uploads data stockfish/stockfish \
 # Verify Stockfish binary exists
 RUN ls -la stockfish/stockfish/ && echo "Stockfish binary verified"
 
+# 复制启动脚本（自动初始化种子数据）
+COPY start-render.sh /app/start.sh
+RUN chmod +x /app/start.sh
+
 EXPOSE 5000
 
-# 1 worker for 1GB RAM VPS; Stockfish hash 64MB; --preload shares init
-# --timeout 300 for long analysis jobs
-CMD ["gunicorn", "-w", "1", "-b", "0.0.0.0:5000", "--timeout", "300", "--preload", "run:app"]
+# 启动脚本：自动灌入种子数据 + 启动 gunicorn
+CMD ["/app/start.sh"]
 
 
 # ---- Frontend Build Stage ----
