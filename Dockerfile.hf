@@ -1,0 +1,63 @@
+# Hugging Face Spaces 专用 Dockerfile
+# 单容器部署：Flask 后端 + Nginx 前端 + Stockfish
+# HF Spaces 要求端口 7860
+
+# ---- 构建阶段：前端 ----
+FROM node:18-alpine AS frontend-build
+
+WORKDIR /app/frontend
+
+COPY frontend/package.json frontend/package-lock.json* ./
+RUN npm ci
+
+COPY frontend/ .
+RUN npm run build
+
+
+# ---- 运行阶段：后端 + Nginx + Stockfish ----
+FROM python:3.12-slim
+
+# 安装系统依赖：nginx + stockfish + supervisor
+RUN apt-get update && apt-get install -y --no-install-recommends \
+    gcc \
+    nginx \
+    stockfish \
+    supervisor \
+    && rm -rf /var/lib/apt/lists/*
+
+WORKDIR /app/backend
+
+# 安装 Python 依赖
+COPY backend/requirements.txt .
+RUN pip install --no-cache-dir -r requirements.txt gunicorn
+
+# 复制后端代码
+COPY backend/ .
+
+# 复制前端构建产物到 Nginx 目录
+COPY --from=frontend-build /app/frontend/dist /usr/share/nginx/html
+
+# 复制 Nginx 配置（独立文件，避免 heredoc 导致 IDE 误报）
+COPY hf/nginx.conf /etc/nginx/sites-available/default
+
+# 复制 Supervisor 配置
+COPY hf/supervisord.conf /etc/supervisor/conf.d/chessdb.conf
+
+# 创建数据目录
+RUN mkdir -p /app/backend/data /app/backend/uploads /app/backend/stockfish/stockfish
+
+# 复制 apt 安装的 Stockfish 到项目目录（让 config.py 自动检测）
+RUN STOCKFISH_BIN=$(which stockfish) \
+    && cp "$STOCKFISH_BIN" /app/backend/stockfish/stockfish/stockfish \
+    && chmod +x /app/backend/stockfish/stockfish/stockfish \
+    && echo "Stockfish installed at: $STOCKFISH_BIN"
+
+# 复制启动脚本
+COPY start-hf.sh /app/start.sh
+RUN chmod +x /app/start.sh
+
+# 暴露 HF Spaces 标准端口
+EXPOSE 7860
+
+# 启动脚本：自动初始化数据库 + 启动 Nginx/Gunicorn
+CMD ["/app/start.sh"]
