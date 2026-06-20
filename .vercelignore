@@ -6,12 +6,18 @@ docs/
 
 # Docker & deployment configs (not needed for Vercel frontend)
 Dockerfile
+Dockerfile.hf
 docker-compose.yml
 render.yaml
 fly.toml
 nginx.conf
+hf/
 deploy.sh
+deploy-cn.sh
+deploy-hf.sh
 start.bat
+start-render.sh
+start-hf.sh
 
 # Sample data
 sample_games.pgn

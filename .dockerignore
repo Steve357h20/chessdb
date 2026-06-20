@@ -1,0 +1,118 @@
+# ============================================================
+# .dockerignore — 防止无关文件进入 Docker 构建上下文
+# ============================================================
+# 显著减少构建时间、Docker 镜像体积、避免把本地开发用的数据库
+# 备份、虚拟环境、构建产物等推到生产环境
+
+# --- Git 元数据 ---
+.git/
+.gitignore
+.gitattributes
+.github/
+
+# --- 本地虚拟环境 ---
+.venv/
+venv/
+env/
+backend/.venv/
+backend/venv/
+
+# --- 数据库文件与备份 ---
+*.db
+*.db-journal
+*.db-shm
+*.db-wal
+*.db.bak
+*.db.bak-*
+*.db.backup
+*.db.old
+*.db.orig
+*.sqlite
+*.sqlite3
+backend/test_*.db
+
+# --- 用户上传与本地数据 ---
+uploads/
+backend/uploads/
+data/
+backend/data/chessdb.db
+
+# --- Stockfish 源码与二进制（容器内重装） ---
+backend/stockfish/stockfish/src/
+backend/stockfish/stockfish/wiki/
+backend/stockfish/stockfish/*.zip
+backend/stockfish/**/stockfish-*.exe
+backend/stockfish/**/stockfish-*-avx2
+
+# --- 文档与解释性文件（生产不需要） ---
+docs/
+*.md
+README*
+LICENSE
+!backend/README*
+
+# --- 测试与缓存 ---
+backend/tests/
+backend/pytest.ini
+.pytest_cache/
+.coverage
+htmlcov/
+__pycache__/
+*.py[cod]
+*.pyo
+.eggs/
+*.egg-info/
+
+# --- 前端构建产物（Docker 内自构建） ---
+frontend/node_modules/
+frontend/dist/
+frontend/.npm-cache/
+frontend/.env
+frontend/.env.*
+!frontend/.env.production
+frontend/*.log
+
+# --- 日志 ---
+*.log
+logs/
+
+# --- 备份与清理目录 ---
+_cleanup_backup/
+backend-data/
+backend/instances/
+
+# --- 部署临时文件（可能含 token） ---
+_deploy*.py
+_deploy*.sh
+_vercel_*.json
+
+# --- IDE / OS ---
+.idea/
+.vscode/
+.DS_Store
+Thumbs.db
+*.swp
+*.swo
+
+# --- 大型二进制（防止超过镜像层限制） ---
+*.zip
+*.tar
+*.tar.gz
+*.7z
+*.iso
+*.dmg
+
+# --- 部署脚本（容器内用 supervisord / 启动脚本） ---
+deploy*.sh
+deploy*.py
+fly.toml
+render.yaml
+vercel.json
+.vercelignore
+
+# --- HF 专用文件（仅 Dockerfile.hf 使用） ---
+hf/
+Dockerfile.hf
+README_HF.md
+deploy-hf.sh
+start-hf.sh

@@ -11,3 +11,7 @@ Werkzeug>=3.0.0
 Flask-Admin>=1.6.0
 flasgger>=0.9.7
 psycopg2-binary>=2.9.0; platform_system != "Windows" or python_version >= "3.12"
+# 生产服务器 (Docker / Render / Hugging Face Spaces 部署使用)
+gunicorn>=21.2.0
+# 流量监控批量写入所需的轻量级依赖（可选）
+python-dateutil>=2.8.2

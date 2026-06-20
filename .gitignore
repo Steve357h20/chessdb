@@ -15,8 +15,21 @@ env/
 
 # Database
 *.db
+*.db-journal
+*.db-shm
+*.db-wal
 *.sqlite
 *.sqlite3
+# 数据库时间戳备份（如 chessdb.db.bak-20260620-104454）—— 体积大且易触发 GitHub 100MB 限制
+*.db.bak
+*.db.bak-*
+*.db.backup
+*.db.old
+*.db.orig
+# 数据库目录
+data/
+backend/data/
+backend/instances/
 
 # Environment variables
 .env
@@ -47,6 +60,9 @@ backend/stockfish/stockfish/Copying.txt
 backend/stockfish/stockfish/README.md
 backend/stockfish/stockfish/Top CPU Contributors.txt
 backend/stockfish/*.zip
+# 任意平台的所有 Stockfish 二进制（防止误提交 100MB+ 的大文件）
+backend/stockfish/**/stockfish*.exe
+backend/stockfish/**/stockfish-*
 
 # Cleanup backup
 _cleanup_backup/
@@ -67,6 +83,30 @@ backend-data/
 
 # Large docs
 docs/*.docx
+
+# 大型二进制/压缩文件（GitHub 单文件 100MB 限制）
+*.zip
+*.tar
+*.tar.gz
+*.7z
+*.rar
+*.iso
+*.dmg
+*.exe
+*.msi
+*.deb
+*.rpm
+# 训练数据 / 大型 fixtures
+*.bin
+*.pkl
+*.npy
+*.pt
+*.h5
+*.hdf5
+# 用户上传文件
+uploads/
+backend/uploads/
+instance/
 
 # Deploy temp files (may contain tokens)
 _deploy*.py
